@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/USUARI/leafwriter-proves/main/css/revisio_camps.css"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/xgv-88/leafwriter-proves/main/css/revisio_camps.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ca">
 <teiHeader><fileDesc>
 <titleStmt><title>Revisió: Ms. 12. Capítules i oracions de les hores diürnes</title></titleStmt>
