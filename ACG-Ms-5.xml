@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ca">
+<teiHeader><fileDesc>
+<titleStmt><title>Revisió: Ms. 5. Bíblia sacra llatina</title></titleStmt>
+<publicationStmt><p>Fitxer de revisió intern (format per camps). No publicar.</p></publicationStmt>
+<sourceDesc><bibl>Jaume de Puig, Sadurní Martí, Elisa Varela, <title>Catàleg dels manuscrits de la catedral de Girona. Volum I: Mss. 1-20</title>, Barcelona, IEC – Ateneu Universitari Sant Pacià 2024.</bibl></sourceDesc>
+</fileDesc></teiHeader>
+<text><body>
+<div type="registre" xml:id="ACG-Ms-5" n="Ms. 5">
+<head>Ms. 5. Bíblia sacra llatina</head>
+<div type="seccio" n="I"><head>I. Enquadernació</head>
+<div type="camp" n="I.1"><head n="Cobertes">1. Cobertes</head><p/><div type="subcamp" n="I.1.a"><head n="Mides de superfície i gruix: " type="valor">a) Mides de superfície i gruix</head><p>270 × 400 × 125.</p></div><div type="subcamp" n="I.1.b"><head n="Material: " type="valor">b) Material</head><p>Ànima de post, recoberta de pell de color marró clar.</p></div><div type="subcamp" n="I.1.d"><head n="Elements decoratius: " type="valor">d) Elements decoratius</head><p>Sanefa en sec, rectangular, a totes dues tapes. A la tapa I, al centre, petit ferro en sec.</p></div></div>
+<div type="camp" n="I.2"><head>2. Llom</head><p>Llom de la mateixa pell.</p><div type="subcamp" n="I.2.a"><head n="Tipus, tècnica i nombre de relligadures: " type="valor">a) Tipus, tècnica i nombre de relligadures</head><p>Els plecs són cosits entre ells i directament a les tapes mitjançant cinc dobles nervis interns de pergamí clar que en treuen altres tants d’externs.</p></div><div type="subcamp" n="I.2.b"><head n="Descripció de les seccions: " type="valor">b) Descripció de les seccions</head><p>Buides.</p></div></div>
+<div type="camp" n="I.3"><head n="Altres elements:" type="valor">3. Altres elements</head><p/><div type="subcamp" n="I.3.a"><head n="Folis de protecció i de guarda: " type="valor">a) Folis de protecció i de guarda</head><p>IV + I, de pergamí, nous els tres primers folis de guarda inicials i el foli de guarda final. Els folis de guarda inicials s’organitzen com segueix:</p><list><item n="1">1) Bifoli format per un foli adherit a la contratapa I + F. de guarda inicial I;</item><item n="2">2) Bifoli format pels f. de guarda inicials II i III;</item><item n="3">3) Foli solter, antic foli de guarda del ms., ara foli inicial de guarda IV.</item></list><p>Al verso d’aquest foli, llista dels llibres bíblics en dues columnes: «Genesis Exodus leuiticus Numerus Deuteronomii Josue Judicum Ruth Regum primus Secundus Tercius Quartus Paralipomenon primus Secundus Esdre Neemias Thobias Judith Esther Job Psalmi Parabole Ecclesiastes Cantica Sapiencie Ecclesiasticus Ysayas Jheremias Trenis Baruch Ezechiel Daniel Osee Joel Amos Abdias Jonas Micheas Naum Abacuch Sophonias | Aggeus Zacharias Malachias Machabeorum primus Machabeorum secundus Matheus Marcus Lucas Johannes Ad romanos Ad corinthios primo Ad corinthios secundo Ad galathas Ad epheseos Ad phillipenses ad collocenses Ad thesalonicenses Ad thimotheum Ad tytum (<hi rend="italic">om a</hi>d Philem) Ad hebreos Actus apostolorum Jacobi Petri Johannis Jude Apocalipsis».</p></div><div type="subcamp" n="I.3.c"><head>c) Cobertes (folres)</head><p>Cobertes (folres) del mateix pergamí que els folis de guarda nous.</p></div><div type="subcamp" n="I.3.d"><head>d) Talls</head><p>Talls daurats.</p></div><div type="subcamp" n="I.3.e"><head>e) Capçalera i capçada</head><p>Capçalera i capçada a dalt i a baix, la capçada de fil d’argent.</p></div><div type="subcamp" n="I.3.f"><head>f) Queix</head><p>Queix de la mateixa pell.</p></div><div type="subcamp" n="I.3.g"><head>g) Llavis</head><p>Llavis de la mateixa pell.</p></div></div>
+<div type="camp" n="I.4"><head n="Conclusió. Data: " type="valor">4. Conclusió. Data</head><p>Segle XX.</p></div>
+</div>
+<div type="seccio" n="II"><head>II. Cos del volum</head>
+<div type="camp" n="II.1"><head n="Composició material: " type="valor">1. Composició material</head><p>Manuscrit homogeni.</p></div>
+<div type="camp" n="II.2"><head n="Matèria: " type="valor">2. Matèria</head><p>Pergamí.</p></div>
+<div type="camp" n="II.4"><head n="Folis: " type="valor">4. Folis</head><p>IV + 413 + I.</p></div>
+<div type="camp" n="II.5"><head n="Dimensions: " type="valor">5. Dimensions</head><p>260 × 372 × 105.</p></div>
+<div type="camp" n="II.6"><head n="Plecs: " type="valor">6. Plecs</head><list><item n="1">1) Plec de 6 × 2, folis 1-12, sense reclam.</item><item n="2">2) Plec de 6 × 2, folis 13-24, sense reclam.</item><item n="3">3) Plec de 6 × 2, folis 25-36, sense reclam.</item><item n="4">4) Plec de 6 × 2, folis 37-48, sense reclam.</item><item n="5">5) Plec de 6 × 2, folis 49-60, sense reclam.</item><item n="6">6) Plec de 6 × 2, folis 61-72, sense reclam.</item><item n="7">7) Plec de 6 × 2, folis 73-84, sense reclam.</item><item n="8">8) Plec de 6 × 2, folis 85-96, sense reclam.</item><item n="9">9) Plec de 6 × 2, folis 97-108, sense reclam. 11) Plec de 6 × 2, folis 109-120, sense reclam. 12) Plec de 6 × 2, folis 121-132, sense reclam. 13) Plec de 6 × 2, folis 133-144, sense reclam. 14) Plec de 6 × 2, folis 145-156, sense reclam. 15) Plec de 6 × 2, folis 157-168, sense reclam. 16) Plec coix, de 6/7, folis 169-181, sense reclam. 17) Plec de 6 × 2, folis 182-193, sense reclam. 18) Plec de 6 × 2, folis 194-205, sense reclam. 19) Plec de 6 × 2, folis 206-217, sense reclam. 20) Plec de 6 × 2, folis 218-229, sense reclam. 21) Plec de 6 × 2, folis 230-241, sense reclam. 22) Plec de 6 × 2, folis 242-253, sense reclam. 23) Plec de 6 × 2, folis 254-265, sense reclam. 24) Plec de 6 × 2, folis 266-277, sense reclam. 25) Plec de 6 × 2, folis 278-289, sense reclam. 26) Plec de 6 × 2, folis 290-301, sense reclam. 27) Plec de 6 × 2, folis 302-313, sense reclam. 28) Plec de 6 × 2, folis 314-325, sense reclam. 29) Plec de 6 × 2, folis 326-337, sense reclam. 30) Plec de 6 × 2, folis 338-349, amb reclam guillotinat: «per singulos». 31) Plec de 6 × 2, folis 350-361, sense reclam. 32) Plec de 5 × 2, folis 362-371, sense reclam. 33) Plec de 6 × 2, folis 372-383, amb reclam guillotinat: «-militudo». 34) Plec de 6 × 2, folis 384-395, sense reclam. 35) Plec de 6 × 2, folis 396-407, sense reclam. 36) Plec de 3 × 2, folis 408-413, sense reclam.</item></list><p>Al plec 16), f. 181v, final del llibre dels <hi rend="italic">Salms,</hi> queden sense escriure dues terceres parts del primer corondell i tot el segon. Al plec 32), f. 370v, final del llibre de l’<hi rend="italic">Apocalipsi, </hi>queda sense escriure tot el segon corondell i és en blanc el f. 371. La guillotina s’ha menjat reclams, signatures de plec, foliació antiga i forats per a la construcció del pautat, tant per dalt i per baix com pel cantó del tall central. Fins al final del llibre de <hi rend="italic">Job,</hi> f. 163v, hom escriu als marges en caràcters molt petits el núm. dels capítols de cada llibre per a guia de l’il·luminador.</p></div>
+<div type="camp" n="II.8"><head>8. Foliació</head><p>Foliació del segle XX, contínua, en llapis i xifres aràbigues, posada a l’angle superior dret del recto dels folis, sobre l’extrem del segon corondell.</p></div>
+<div type="camp" n="II.9"><head n="Numeració de plecs: " type="valor">9. Numeració de plecs</head><p>Se’n veuen rastres als folis 372-384, 393-401 i 405-408.</p></div>
+<div type="camp" n="II.11"><head n="Forats: " type="valor">11. Forats</head><p>Se’n veuen rastres al tall central.</p></div>
+<div type="camp" n="II.12"><head>12. Sistema de ratllat</head><p>Sistema de ratllat en tinta sèpia. 1111 | 2222. Primera línia no escrita.</p></div>
+</div>
+<div type="seccio" n="III"><head>III. Contingut literari</head>
+<div type="peca" xml:id="ACG-Ms-5-A" n="A"><head>Peça A</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Aa" n="Aa"><head>Subpeça a</head>
+<div type="camp" n="III.Aa.1"><head>1a. Folis, íncipit i èxplicit</head><p><hi rend="smallcaps"></hi>Folis 1-3. F. 1ra, <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit epistola sancti ieronimi presbityeri ad paulinum presbyterum de omnibus diuine hystorie libris (<hi rend="italic">fi de rúbrica</hi>) Frater ambrosius tua mihi munuscula perferens detulit et suauissimas litteras que a principio amiciciarum …». F. 3ra, <hi rend="italic">exp</hi>.: «… facile contempnit omnia qui se semper cogitat esse moriturum».</p></div>
+<div type="camp" n="III.Aa.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius, </hi><hi rend="italic">Epistola LIII  ad Paulinum presbyterum, 1-8.</hi></p></div>
+<div type="camp" n="III.Aa.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger </hi>1<hi rend="smallcaps">; </hi>BS [Pii XI], vol. I, 2.</p></div>
+<div type="camp" n="III.Aa.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 284.</p></div>
+<div type="camp" n="III.Aa.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 22, 540-549; <hi rend="italic">Préfaces</hi> 1-7; BS [Pii XI], I, 3-37.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Ab" n="Ab"><head>Subpeça b</head>
+<div type="camp" n="III.Ab.1"><head>1b. Folis, íncipit i èxplicit</head><p>F. 3ra, <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus sancti ieronimi pentatheucum (<hi rend="italic">sic</hi>) (<hi rend="italic">fi de rúbrica</hi>). Desiderii mei desideratas accepi epistolas qui quodam presagio futurorum cum daniele sortitus est nomen...». F. 3rb, <hi rend="italic">exp.: </hi>«... eodem spiritu quo scripti sunt libri in latinum eos transferre sermonem. (<hi rend="italic">rúbrica</hi>) Explicit prologus sancti ieronimi [<hi rend="italic">expunc </hi>i] penta theucum (<hi rend="italic">fi de rúbrica</hi>)».</p></div>
+<div type="camp" n="III.Ab.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius, </hi><hi rend="italic">Praefatio in  Pentateucum.</hi></p></div>
+<div type="camp" n="III.Ab.3"><head n="Altres manuscrits: " type="valor">3b. Altres manuscrits</head><p><hi rend="smallcaps">Berger </hi>2<hi rend="smallcaps">; </hi>BS [Pii XI], vol. I, 2.</p></div>
+<div type="camp" n="III.Ab.4"><head n="Catàlegs i bibliografia: " type="valor">4b. Catàlegs i bibliografia</head><p>RB 285.</p></div>
+<div type="camp" n="III.Ab.5"><head n="Edició: " type="valor">5b. Edició</head><p>PL 28, 177-184; <hi rend="italic">Préfaces</hi> 7-8; BS [Pii XI], vol. I, 63-69.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Ac" n="Ac"><head>Subpeça c</head>
+<div type="camp" n="III.Ac.1"><head>1c. Folis, íncipit i èxplicit</head><p>F. 3va, <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit liber geneseos qui dicitur hebraice bresith (<hi rend="italic">fi de rúbrica</hi>). In principio creauit deus celum et terram. Terra autem erat inanis et uacua et tenebre erant super faciem abyssi, et spiritus domini ferebatur super aquas …». F. 17vb, <hi rend="italic">exp</hi>.: «… Mortuus est expletis centum<hi rend="smallcaps"> x </hi>uite sue annis, et conditus aromatibus repositus est in loculo in egipto. (<hi rend="italic">add in marg al man</hi>) Explicit genesis | Incipit exodus<hi rend="smallcaps">».</hi></p></div>
+<div type="camp" n="III.Ac.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="italic">Genesis.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Ad" n="Ad"><head>Subpeça d</head>
+<div type="camp" n="III.Ad.1"><head>1d. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «Hec sunt nomina filiorum israel qui ingressi sunt egiptum cum iacob singuli cum domibus suis introierunt ...». F. 29va, <hi rend="italic">exp</hi>.: «... Nubes quippe domini incubabat per diem tabernaculo et ignis in nocte, uidentibus populis israel per cunctas mansiones suas».</p></div>
+<div type="camp" n="III.Ad.2"><head n="Identificació de l’autor i obra: " type="valor">2d. Identificació de l’autor i obra</head><p><hi rend="italic">Exodus</hi>.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Ae" n="Ae"><head>Subpeça e</head>
+<div type="camp" n="III.Ae.1"><head>1e. Folis, íncipit i èxplicit</head><p>F. 29va, <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit liber leuiticus<hi rend="sup">.</hi> primum capitulum (<hi rend="italic">fi de  rúbrica</hi>). Vocauit autem Moysen et locutus est ei dominus de tabernaculo testimonii dicens: Loquere filiis [<hi rend="italic">seq </hi>i <hi rend="italic">expunc</hi>] israel et dices ad eos. Homo qui obtulerit ex vobis hostiam deo de pecoribus ...». F. 37va, <hi rend="italic">exp</hi>.: «... Si quis mutauerit et quod mutatum est sanctificabitur domino nec altero commutabitur et non redimetur. Hec sunt precepta que mandauit deus moysi et ad filios israel in monte synai».</p></div>
+<div type="camp" n="III.Ae.2"><head n="Identificació de l’autor i obra: " type="valor">2e. Identificació de l’autor i obra</head><p><hi rend="italic">Leviticus</hi>.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Af" n="Af"><head>Subpeça f</head>
+<div type="camp" n="III.Af.1"><head>1f. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit liber numeri I. (<hi rend="italic">fi de rúbrica</hi>). Locutus est dominus ad moysen in deserto synai<hi rend="sup"> </hi>in tabernaculo federis prima die mensis secundi anno altero egressionis eorum ex egipto dicens ...». F. 49rb, <hi rend="italic">exp</hi>.: «... dominus per manum moysi ad filios israel in campestribus moab super iordanem contra iericho».</p></div>
+<div type="camp" n="III.Af.2"><head n="Identificació de l’autor i obra: " type="valor">2f. Identificació de l’autor i obra</head><p><hi rend="italic">Numeri</hi>.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Ag" n="Ag"><head>Subpeça g</head>
+<div type="camp" n="III.Ag.1"><head>1g. Folis, íncipit i èxplicit</head><p>Ib, <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit adabarim qui deuteronomius (<hi rend="italic">sic</hi>) prenotatur (<hi rend="italic">fi de rúbrica</hi>). Hec sunt verba que locutus est moyses ad omnem israel trans iordanem in solitudine campestri contra mare rubrum inter pharan et tophel et laban et asseroth ubi est auri plurimum ...». F. 59vb, <hi rend="italic">exp</hi>.: «... omnibus seruis eius uniuerseque terre illius et cunctam manum robustam [<hi rend="italic">expunc </hi>n] magnaque mirabilia que fecit moyses coram [<hi rend="italic">expunc </hi>i] uniuerso israel».</p></div>
+<div type="camp" n="III.Ag.2"><head n="Identificació de l’autor i obra: " type="valor">2g. Identificació de l’autor i obra</head><p><hi rend="italic">Deuteronomium</hi>.</p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-B" n="B"><head>Peça B</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Ba" n="Ba"><head>Subpeça a</head>
+<div type="camp" n="III.Ba.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit prologus in libro iosue (<hi rend="italic">fi de rúbrica</hi>). Tandem finito pentatheuco moysi uelut grandi fenore liberati ad ihesum filium naue manum mittimus ...». F. 60ra, <hi rend="italic">exp</hi>.: «... et nos ad patriam festinantes mortiferos syrenarum cantus surda debeamus aure transire».</p></div>
+<div type="camp" n="III.Ba.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius</hi>, <hi rend="italic">Prologus in  libro Iosue ben Nun</hi>.</p></div>
+<div type="camp" n="III.Ba.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger </hi>22<hi rend="smallcaps">; </hi>BS [Pii XI], vol. IV, 2.</p></div>
+<div type="camp" n="III.Ba.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 311.</p></div>
+<div type="camp" n="III.Ba.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 28, 503-506; <hi rend="italic">Préfaces</hi> 22-23; BS [Pii XI], vol. IV, 3-8.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Bb" n="Bb"><head>Subpeça b</head>
+<div type="camp" n="III.Bb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit liber iosue. Primum capitulum (<hi rend="italic">fi de rúbrica</hi>). Et factum est post mortem moysi serui dei ut loqueretur dominus ad iosue filium nun ministrum moysi et diceret ei ...». F. 67ra, <hi rend="italic">exp</hi>.: «... Eleazar quoque filius aaron sacerdotis mortuus est; et sepelierunt eum in gabaa finees et filii eius que data est ei in monte effraym (<hi rend="italic">rúbrica</hi>) Explicit liber iosue (<hi rend="italic">fi de rúbrica</hi>)».</p></div>
+<div type="camp" n="III.Bb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Iosue</hi>.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Bc" n="Bc"><head>Subpeça c</head>
+<div type="camp" n="III.Bc.1"><head>1c. Folis, íncipit i èxplicit</head><p>F. 67rb, <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit liber iudicum (<hi rend="italic">fi de rúbrica</hi>. <hi rend="italic">F. 67rb</hi>) <hi rend="smallcaps">Post mortem</hi> iosue consuluerunt filii israel dominum dicentes. Quis ascendet ante nos contra chananeum et erit dux belli? Dixitque dominus: Iudas ascendet ...» F. 74va, <hi rend="italic">exp</hi>.: «... In diebus illis non erat rex in israel, sed unusquisque quod (<hi rend="italic">F. 74vb</hi>) sibi rectum uidebatur hoc faciebat».</p></div>
+<div type="camp" n="III.Bc.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="italic">Liber Iudicum.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Bd" n="Bd"><head>Subpeça d</head>
+<div type="camp" n="III.Bd.1"><head>1d. Folis, íncipit i èxplicit</head><p>F. 74vb, <hi rend="italic">inc.:</hi> «(<hi rend="italic">rúbrica</hi>) Incipit liber Ruth (<hi rend="italic">fi de rúbrica</hi>). In diebus unius iudicis quando iudices preerant facta est fames in terra ...». F. 75vb, <hi rend="italic">exp</hi>.: «... Booz genuit obez. Obez genuit ysai. Ysai genuit dauid regem».</p></div>
+<div type="camp" n="III.Bd.2"><head n="Identificació de l’autor i obra: " type="valor">2d. Identificació de l’autor i obra</head><p><hi rend="italic">Ruth</hi>.</p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-C" n="C"><head>Peça C</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Ca" n="Ca"><head>Subpeça a</head>
+<div type="camp" n="III.Ca.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit prologus in primo libro regum (<hi rend="italic">fi de rúbrica</hi>). Viginti et duas litteras esse apud hebreos syrorum quoque lingua et chaldeorum testatur...». F. 76rb, <hi rend="italic">exp</hi>.: «... Posui ori meo custodiam dum consisteret peccator aduersum me. Obmutui et humiliatus sum et silui de bonis».</p></div>
+<div type="camp" n="III.Ca.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius</hi>, <hi rend="italic">Prologus  [galeatus] in libros regum ad Paulam et Eustochiam.</hi></p></div>
+<div type="camp" n="III.Ca.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger </hi>30<hi rend="smallcaps">; </hi>BS [Pii XII], vol. V, 2.</p></div>
+<div type="camp" n="III.Ca.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 323.</p></div>
+<div type="camp" n="III.Ca.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 28, 591-604; <hi rend="italic">Préfaces</hi> 24-26; BS [Pii XII], vol. V, 3-11.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Cb" n="Cb"><head>Subpeça b</head>
+<div type="camp" n="III.Cb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit primus liber regum (<hi rend="italic">fi de rúbrica</hi>). I. Fuit uir vnus de ramathaim sophim<hi rend="sup"> </hi>(<hi rend="italic">mots separats per fi de línia</hi>) de monte effraym et nomen eius helchana filius ieroboam ...». F. 86va, <hi rend="italic">exp</hi>.: «... et tulerunt ossa eorum et sepelierunt in nemore iabes, et ieiunauerunt <hi rend="smallcaps">vii</hi> diebus. (<hi rend="italic">rúbrica</hi>) Explicit samuel, id est, regum liber primus».</p></div>
+<div type="camp" n="III.Cb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Samuhel I.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Cc" n="Cc"><head>Subpeça c</head>
+<div type="camp" n="III.Cc.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit regum liber secundus (<hi rend="italic">fi de rúbrica</hi>). I. Factum est autem postquam mortuus est saul et dauid reuerteretur a cede amalech et maneret duos dies in sichelech ...». F. 94vb, <hi rend="italic">exp</hi>.: «... Et obtulit holocausta et pacifica, et repropiciatus est dominus terre, et cohibita est plaga ab israel. (<hi rend="italic">rúbrica</hi>) Explicit secundus liber regum».</p></div>
+<div type="camp" n="III.Cc.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="italic">Samuhel II.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Cd" n="Cd"><head>Subpeça d</head>
+<div type="camp" n="III.Cd.1"><head>1d. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit malachim, id est, regum liber tertius (<hi rend="italic">fi de  rúbrica</hi>). I. Et rex dauid senuerat habebatque etatis annos plurimos; cumque operiretur vestibus non calefiebat. Dixerunt ergo ei serui sui: Queramus domino nostro regi adolescentulam uirginem et stet coram rege ...». F. 104va, <hi rend="italic">exp</hi>.: «... Seruiuit quoque baal et adorauit eum, et irritauit dominum deum israel iuxta omnia que fecerat pater eius».</p></div>
+<div type="camp" n="III.Cd.2"><head n="Identificació de l’autor i obra: " type="valor">2d. Identificació de l’autor i obra</head><p><hi rend="italic">Malachim I.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Ce" n="Ce"><head>Subpeça e</head>
+<div type="camp" n="III.Ce.1"><head>1e. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit liber regum quartus (<hi rend="italic">fi de rúbrica</hi>). Preuaricatus est autem moab in israel postquam mortuus est achab. Ceciditque ochozias per cancellos cenaculi sui quod habebat in samariam (<hi rend="italic">sic</hi>) ...». F. 113va, <hi rend="italic">exp</hi>.: «... Annonam quoque constituit ei sine intermissione, que et dabatur ei a rege per singulos dies omnibus diebus uite sue».</p></div>
+<div type="camp" n="III.Ce.2"><head n="Identificació de l’autor i obra: " type="valor">2e. Identificació de l’autor i obra</head><p><hi rend="italic">Malachim II.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-D" n="D"><head>Peça D</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Da" n="Da"><head>Subpeça a</head>
+<div type="camp" n="III.Da.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib, <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit prologus in primo libro paralipomenon (<hi rend="italic">fi de  rúbrica</hi>). Si Septuaginta interpretum pura et ut ab eis in grecum uersa est editio permaneret ...». F. 113vb, <hi rend="italic">exp: </hi>«... sensuumque barbariem apertius et per uersuum cola digererem, mihimet ipsi et meis iuxta hismenium canens, si aures surde sunt ceterorum».</p></div>
+<div type="camp" n="III.Da.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius</hi><hi rend="italic">, Prologus in  libro Paralipomenon.</hi></p></div>
+<div type="camp" n="III.Da.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger </hi>36<hi rend="smallcaps">; </hi>BS [Pii XII], vol. VII, 2.</p></div>
+<div type="camp" n="III.Da.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 328.</p></div>
+<div type="camp" n="III.Da.5"><head>5a. Edició</head><p>Edició PL 28, 1389-1394; <hi rend="italic">Préfaces </hi>30-31; BS [Pii XII], vol. VII, 3-7.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Db" n="Db"><head>Subpeça b</head>
+<div type="camp" n="III.Db.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit primus liber paralipomenon (<hi rend="italic">fi de rúbrica</hi>). Adam, seth, enos, chaynan, malalehel, iared, enoc ... ». F. 122rb, <hi rend="italic">exp.: </hi>«... vniuersique regni eius et fortitudinis et temporum que transierunt sub eo siue in israel siue in cunctis regnis terrarum. (<hi rend="italic">rúbrica</hi>) Explicit dabreiamin liber primus, id est, uerba dierum».</p></div>
+<div type="camp" n="III.Db.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Verba dierum I.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Dc" n="Dc"><head>Subpeça c</head>
+<div type="camp" n="III.Dc.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit liber II<hi rend="sup">us </hi>(<hi rend="italic">fi de rúbrica</hi>). Eusebius ieronimus dominioni (<hi rend="italic">sic</hi>) et rogatiano suis in ihesu christo salutem. Quomodo grecorum hystorias magis intelligunt qui athenas uiderint ...». F. 122va, <hi rend="italic">exp</hi>.: «... illic significatur quid <hi rend="smallcaps">lxxª</hi> interpretes addiderunt uel ob decoris gratiam uel ob spiritus sancti auctoritatem, et in hebreis voluminibus non legatur».</p></div>
+<div type="camp" n="III.Dc.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius</hi><hi rend="italic"> Prologus Para lipomenon.</hi></p></div>
+<div type="camp" n="III.Dc.3"><head n="Altres manuscrits: " type="valor">3c. Altres manuscrits</head><p><hi rend="smallcaps">Berger </hi>37<hi rend="smallcaps">; </hi>BS [Pii XII], vol. VII, 2.</p></div>
+<div type="camp" n="III.Dc.4"><head n="Catàlegs i bibliografia: " type="valor">4c. Catàlegs i bibliografia</head><p>RB 327.</p></div>
+<div type="camp" n="III.Dc.5"><head n="Edició: " type="valor">5c. Edició</head><p>PL 239, 401-404; <hi rend="italic">Préfaces</hi> 31-32; BS [Pii XII], vol. VII, 7-10.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Dd" n="Dd"><head>Subpeça d</head>
+<div type="camp" n="III.Dd.1"><head>1d. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit secundus liber paralipomenon (<hi rend="italic">fi de rúbrica</hi>). Confortatus est ergo Salomon filius dauid in regno suo et dominus erat cum eo et magnificauit eum in excelsum ...». F. 133ra, <hi rend="italic">exp</hi>.: «... Quis ex uobis est in omni populo eius? Sit dominus deus suus cum eo, et ascendat».</p></div>
+<div type="camp" n="III.Dd.2"><head n="Identificació de l’autor i obra: " type="valor">2d. Identificació de l’autor i obra</head><p><hi rend="italic">Verba dierum II.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-De" n="De"><head>Subpeça e</head>
+<div type="camp" n="III.De.1"><head>1e. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «Domine deus omnipotens patrum nostrorum abraham, ysaac et iacob ...». Ib., <hi rend="italic">exp</hi>.: «... quoniam te laudat omnis uirtus celorum et tibi est gloria in secula seculorum amen».</p></div>
+<div type="camp" n="III.De.2"><head n="Identificació de l’autor i obra: " type="valor">2e. Identificació de l’autor i obra</head><p><hi rend="italic">Oratio Manasses</hi>.</p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-E" n="E"><head>Peça E</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Ea" n="Ea"><head>Subpeça a</head>
+<div type="camp" n="III.Ea.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Prologus in libro esdre primo (<hi rend="italic">fi de rúbrica</hi>). Vtrum difficilius sit facere quod poscitis an negare nec dum statui ...». F. 133va, <hi rend="italic">exp</hi>.: «... magis uestra caritate prouocabor ad studium quam illorum detractione et odio deterrebor».</p></div>
+<div type="camp" n="III.Ea.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius</hi>, <hi rend="italic">Prologus in  primo libro Ezrae</hi>.</p></div>
+<div type="camp" n="III.Ea.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger </hi>42<hi rend="smallcaps">; </hi>BS [Pii XII], vol. VIII, 2</p></div>
+<div type="camp" n="III.Ea.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 330.</p></div>
+<div type="camp" n="III.Ea.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 28, 1401-1406; <hi rend="italic">Préfaces</hi> 33-34; BS [Pii XII], vol. VIII, 3-7.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Eb" n="Eb"><head>Subpeça b</head>
+<div type="camp" n="III.Eb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit primus liber esdre (<hi rend="italic">fi de rúbrica</hi>). In anno primo cyri regis persarum ut compleretur uerbum domini ex ore ieremie<hi rend="sup"> </hi> ...». F. 136rb, <hi rend="italic">exp</hi>.: «... Omnes hii acceperant uxores alienigenas et fuerunt ex eis mulieres qui pepererant filios».</p></div>
+<div type="camp" n="III.Eb.1"><head n="Identificació de l’autor i obra: " type="valor">1b. Folis, íncipit i èxplicit</head><p><hi rend="italic">Liber Eszrae I.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Ec" n="Ec"><head>Subpeça c</head>
+<div type="camp" n="III.Ec.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «Verba neemie filii helchie. Et factum est in mense chasleu anno <hi rend="smallcaps">xx</hi>º et ego eram in susis castro et uenit ad me anani unus de fratribus meis ipse et uiri iuda ...». F. 140va, <hi rend="italic">exp</hi>.: «... in temporibus constitutis et in primiciis. Memento mei deus meus in bonum».</p></div>
+<div type="camp" n="III.Ec.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="italic">Liber Nehemiae.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Ed" n="Ed"><head>Subpeça d</head>
+<div type="camp" n="III.Ed.1"><head>1d. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit II<hi rend="sup">us</hi> liber esdre (<hi rend="italic">fi de rúbrica</hi>). Et fecit iosias pascha in iherosolimis domino et immolauit phase <hi rend="smallcaps">xiiii</hi> luna primi mensis statuens sacerdotes ...». F. 144vb, <hi rend="italic">exp</hi>.: «... Et congregati sunt uniuersi in ierusalem celebrare letitiam testamentum (<hi rend="italic">sic</hi>) domini dei israhel».</p></div>
+<div type="camp" n="III.Ed.2"><head n="Identificació de l’autor i obra: " type="valor">2d. Identificació de l’autor i obra</head><p><hi rend="italic">Liber Ezrae III. </hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-F" n="F"><head>Peça F</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Fa" n="Fa"><head>Subpeça a</head>
+<div type="camp" n="III.Fa.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rubrica</hi>) Prologus super thobiam (<hi rend="italic">fi de rúbrica</hi>). Chromatio et elyodoro episcopis iheronimus presbyter in domino salutem. Mirare (<hi rend="italic">sic</hi>) non desino ...». F. 145ra, <hi rend="italic">exp</hi>.: «... cum gratum uobis didicero me quod iubere estis dignati complesse».</p></div>
+<div type="camp" n="III.Fa.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius, </hi><hi rend="italic">Prologus  Tobiae (ex Epistula ad Chromatium et Heliodorum episcopos).</hi></p></div>
+<div type="camp" n="III.Fa.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger </hi>45<hi rend="smallcaps">; </hi>BS [Pii XII], vol. VIII, 154.</p></div>
+<div type="camp" n="III.Fa.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 332.</p></div>
+<div type="camp" n="III.Fa.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 29, 23-26; <hi rend="italic">Préfaces</hi> 35; BS [Pii XII], vol. VIII, 155-156.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Fb" n="Fb"><head>Subpeça b</head>
+<div type="camp" n="III.Fb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit liber thobie (<hi rend="italic">fi de rúbrica</hi>). Thobias ex tribu et ciuitate neptalim qui est in superioribus galilee ...». F. 147vb, <hi rend="italic">exp</hi>.: «... ita ut accepti essent tam deo quam hominibus et cunctis habitantibus terram».</p></div>
+<div type="camp" n="III.Fb.2"><head n="Identificació de l’autor i obra:" type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic"> Liber Tobiae.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-G" n="G"><head>Peça G</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Ga" n="Ga"><head>Subpeça a</head>
+<div type="camp" n="III.Ga.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Prologus iudith (<hi rend="italic">fi de rúbrica</hi>). Apud hebreos liber iudith inter agiographa legitur cuius autoritas ad corroboranda illa que in contencione ueniunt ...». F. 148ra, <hi rend="italic">exp</hi>.: «... ut inuictum ab omnibus hominibus uinceret insuperabilem superaret».</p></div>
+<div type="camp" n="III.Ga.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius, </hi><hi rend="italic">Prologus in  libro Iudith</hi>.</p></div>
+<div type="camp" n="III.Ga.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger </hi>48<hi rend="smallcaps">; </hi>BS [Pii XII], vol. VIII, 214.</p></div>
+<div type="camp" n="III.Ga.4"><head n="Catàlegs i bibiliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 335.</p></div>
+<div type="camp" n="III.Ga.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 29, 37-40; <hi rend="italic">Préfaces</hi> 35; BS [Pii XII], vol. VIII, 213-214.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Gb" n="Gb"><head>Subpeça b</head>
+<div type="camp" n="III.Gb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit liber judith (<hi rend="italic">fi de rúbrica</hi>). Arphaxat itaque rex medorum subiugauerat multas gentes imperio suo et ipse edificauit ciuitatem potentissimam quam apellauit iecbathanis ...». F. 151vb, <hi rend="italic">exp</hi>.: «... Dies autem uictorie huius festituitatis ab hebreis in numero sanctorum dierum accipitur et colitur a iudeis ex illo tempore usque in presentem diem».</p></div>
+<div type="camp" n="III.Gb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Liber Iudith.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-H" n="H"><head>Peça H</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Ha" n="Ha"><head>Subpeça a</head>
+<div type="camp" n="III.Ha.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit prologus hester (<hi rend="italic">fi de rúbrica</hi>). Librum hester uariis translationibus constat esse uiciatum, quem ego de archiuis hebreorum eleuans uerbum e uerbo expressius transtuli ...». F. 152ra, <hi rend="italic">exp</hi>.: «... Nos enim iuxta morem hebreorum ordinem prosequi et in <hi rend="smallcaps">lxxª</hi> editione maluimus».</p></div>
+<div type="camp" n="III.Ha.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius</hi>, <hi rend="italic">Prologus in  libro Hester cum additiione. </hi></p></div>
+<div type="camp" n="III.Ha.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 51; BS [Pii XII], vol. IX, 2.</p></div>
+<div type="camp" n="III.Ha.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 341.</p></div>
+<div type="camp" n="III.Ha.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 28, 1503-1506; <hi rend="italic">Préfaces</hi> 36; BS [Pii XII], vol. IX, 3-4.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Hb" n="Hb"><head>Subpeça b</head>
+<div type="camp" n="III.Hb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit liber hester (<hi rend="italic">fi de rúbrica</hi>). In diebus assueri qui regnauit ab india usque ethiopiam super <hi rend="smallcaps">c xxvii</hi> prouincias, quando sedit in solio regni sui ...». F. 155vb, <hi rend="italic">exp</hi>.: «... et sic deleatur ut non solum hominibus sed etiam bestiis inuia sit in sempiternum pro exemplo contemptus et inobediencie».</p></div>
+<div type="camp" n="III.Hb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Hester.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-I" n="I"><head>Peça I</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Ia" n="Ia"><head>Subpeça a</head>
+<div type="camp" n="III.Ia.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit prologus iob (<hi rend="italic">fi de rúbrica</hi>). Cogor per singulos scripture diuine libros aduersariorum respondere maledictis, qui interpretationem meam reprehensionem <hi rend="smallcaps">lxx</hi> interpretum criminantur ...». F. 156rb, <hi rend="italic">exp</hi>.: «... et mea iuxta hebreos et in latinum meo labore translata est. Eligat unusquisque quod uult et studiosum se magis quam maliuolum probet».</p></div>
+<div type="camp" n="III.Ia.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius, </hi><hi rend="italic">Prologus in  librum Iob</hi>.</p></div>
+<div type="camp" n="III.Ia.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 55; BS [Pii XII], vol. IX, 68.</p></div>
+<div type="camp" n="III.Ia.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 344.</p></div>
+<div type="camp" n="III.Ia.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 28, 1137-1142; <hi rend="italic">Préfaces</hi> 38-39; BS [Pii XII], vol. IX, 69-74.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Ib" n="Ib"><head>Subpeça b</head>
+<div type="camp" n="III.Ib.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Alius prologus (<hi rend="italic">fi de rúbrica</hi>). Si aut fiscellam iunco texerem aut palmarum folia complicarem ut in sudore (<hi rend="italic">seq </hi>in<hi rend="italic"> expunc</hi>) uultus mei comederem panem, et uentris opus sollicita mente tractarem, nullus morderet, nemo reprehenderet ...». Ib., <hi rend="italic">exp</hi>.: «... Magis utile quid ex odio (<hi rend="italic">sic</hi>) meo ecclesiis christi uenturum ratus quam ex aliorum negocio».</p></div>
+<div type="camp" n="III.Ib.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius, </hi><hi rend="italic">Prologus  Iob.</hi></p></div>
+<div type="camp" n="III.Ib.3"><head n="Altres manuscrits: " type="valor">3b. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 56: BS [Pii XII], vol. IX, 68.</p></div>
+<div type="camp" n="III.Ib.4"><head n="Catàlegs i bibliografia: " type="valor">4b. Catàlegs i bibliografia</head><p>RB 357.</p></div>
+<div type="camp" n="III.Ib.5"><head n="Edició: " type="valor">5b. Edició</head><p>PL 29, 61-62; <hi rend="italic">Préfaces</hi> 39; BS [Pii XII], vol. IX, 74-76.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Ic" n="Ic"><head>Subpeça c</head>
+<div type="camp" n="III.Ic.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib, <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit iob. I (<hi rend="italic">fi de rúbrica</hi>). Vir erat in terra hus nomine iob, et erat uir ille simplex et rectus ac timens deum et recedens a malo ...». F. 163vb, <hi rend="italic">exp</hi>.: «... Vixit autem iob post flagella hec <hi rend="smallcaps">c xl</hi> annis et uidit filios suos et filios filiorum suorum usque ad quartam generationem, et mortuus est senex et plenus dierum. (<hi rend="italic">rúbrica</hi>) Explicit iob».</p></div>
+<div type="camp" n="III.Ic.2"><head>2c. Identificació de l’autor i obra</head><p>Identificació de l’autor i obra<hi rend="italic">: Liber Iob.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-J" n="J"><head>Peça J</head>
+<div type="camp" n="III.J.1"><head>1. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit liber hymnorum uel soliloquiorum prophete dauid de christo (<hi rend="italic">fi de rúbrica</hi>). Beatus uir qui non abiit in consilio impiorum et in uia peccatorum non stetit et in cathedra pestilentie non sedit ...». F. 181va, <hi rend="italic">exp</hi>.: «... Laudate eum in cimbalis bene sonantibus, laudate eum in cimbalis iubilationis, omnis spiritus laudet dominum. <hi rend="smallcaps">Explicit psalte rium in biblia. deo | gracias. amen».</hi></p></div>
+<div type="camp" n="III.J.2"><head n="Identificació de l’autor i obra: " type="valor">2. Identificació de l’autor i obra</head><p><hi rend="italic">Psalterium gallicanum.</hi></p></div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-K" n="K"><head>Peça K</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Ka" n="Ka"><head>Subpeça a</head>
+<div type="camp" n="III.Ka.1"><head>1a. Folis, íncipit i èxplicit</head><p>F. 182ra, <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit prologus (<hi rend="italic">fi de rúbrica</hi>). Iungat epistola quos iungit sacerdotium, immo carta non diuidat quos christi nectit amor ...». Ib., <hi rend="italic">exp</hi>.: «... que non in tercium uas transfusa coacuerint, sed statim de prelo purissime commendata teste suum saporem seruauerint».</p></div>
+<div type="camp" n="III.Ka.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius, </hi><hi rend="italic">Prologus in  parabolas Salomonis (Epistula ad Chromatium et Heliodorum episcopos).</hi></p></div>
+<div type="camp" n="III.Ka.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 129; BS [Pii XII], vol. XI, 2.</p></div>
+<div type="camp" n="III.Ka.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 457.</p></div>
+<div type="camp" n="III.Ka.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 28, 1305-1308; <hi rend="italic">Préfaces</hi> 118; BS [Pii XII], vol. XI, 3-5.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Kb" n="Kb"><head>Subpeça b</head>
+<div type="camp" n="III.Kb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipiunt parabole salomonis (<hi rend="italic">fi de rúbrica</hi>) Parabole salomonis filii dauid regis israel ad sciendam sapienciam et disciplinam, ad intelligenda uerba prudentie ...». F. 188va, <hi rend="italic">exp</hi>.: «… (<hi rend="italic">rúbrica</hi>) Tau (<hi rend="italic">fi de rúbrica</hi>). Timorem autem domini ipsa collaudat. Date ei de fructu manuum suarum et laudent eam in portis opera sua uel eius».<hi rend="sup"> </hi></p></div>
+<div type="camp" n="III.Kb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Proverbia</hi>.</p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-L" n="L"><head>Peça L</head>
+<div type="subpeca" xml:id="ACG-Ms-5-La" n="La"><head>Subpeça a</head>
+<div type="camp" n="III.La.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit prologus in libro ecclesiastes (<hi rend="italic">fi de rúbrica</hi>). Memini me hoc ferme quinquennio cum adhuc rome essem ...». Ib., <hi rend="italic">exp</hi>.: «... nec rursum contra conscienciam meam fonte ueritatis obmisso opinionum riuulos consectarer (<hi rend="italic">rúbrica</hi>) Explicit prologus (<hi rend="italic">fi de rúbrica</hi>)».</p></div>
+<div type="camp" n="III.La.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius, </hi><hi rend="italic">Commentarii  in Ecclesiasten ad Paulam et Eustochium, praefatio.</hi></p></div>
+<div type="camp" n="III.La.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 138; BS [Pii XII], vol. XI, 2.</p></div>
+<div type="camp" n="III.La.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 462.</p></div>
+<div type="camp" n="III.La.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 23, 1009-1010 [1061-1062]; <hi rend="italic">Préfaces</hi> 120; CCSL, LXXII, 249.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Lb" n="Lb"><head>Subpeça b</head>
+<div type="camp" n="III.Lb.1"><head>1b. Folis, íncipit i èxplicit</head><p>F. 188vb, <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit liber ecclesiastes (<hi rend="italic">fi de rúbrica</hi>). Verba ecclesiastes filii dauid regis ierusalem. Vanitas uanitatum, dixit ecclesiastes, uanitas uanitatum et omnia uanitas ...». F. 191ra, <hi rend="italic">exp.: </hi>«... finem loquendi pariter omnes audiamus. Deum time et mandata eius obserua. Hoc est omnis homo. Cuncta que fiunt adducet in iuditium pro omni errato siue bonum siue malum sit».</p></div>
+<div type="camp" n="III.Lb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Ecclesiastes</hi>.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Lc" n="Lc"><head>Subpeça c</head>
+<div type="camp" n="III.Lc.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipiunt cantica canticorum (<hi rend="italic">fi de rúbrica</hi>). Osculetur me osculo oris sui, quia meliora sunt ubera tua uino ...». F. 192ra, <hi rend="italic">exp.: </hi>«... fuge dilecte mi, assimilare capree hynnulosque (<hi rend="italic">sic</hi>) ceruo rum super montes aromatum».</p></div>
+<div type="camp" n="III.Lc.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="italic">Cantica canticorum.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-M" n="M"><head>Peça M</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Ma" n="Ma"><head>Subpeça a</head>
+<div type="camp" n="III.Ma.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus in libro sapientie (<hi rend="italic">fi de rúbrica</hi>). Liber sapientie apud hebreos nusquam est. Vnde et ipse stilus grecam magis eloquentiam redolet ...». Ib., <hi rend="italic">exp.: </hi>«... christi aduentus qui est sapientia patris et passio euidenter exprimitur».</p></div>
+<div type="camp" n="III.Ma.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Isidorus, </hi><hi rend="italic">Etymologiarum lib. VI, ii, 30 .</hi></p></div>
+<div type="camp" n="III.Ma.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p>Cf. supra, ms. 1, III, <hi rend="smallcaps">ii</hi>, 3g, nota 7.</p></div>
+<div type="camp" n="III.Ma.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 468.</p></div>
+<div type="camp" n="III.Ma.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 82, 233 B; ed. <hi rend="smallcaps">Lindsay, </hi>Oxford Classical Texts<hi rend="smallcaps">, </hi>Oxford 1911; <hi rend="italic">Préfaces </hi>121; BS [Pauli VI], vol. XII, 3.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Mb" n="Mb"><head>Subpeça b</head>
+<div type="camp" n="III.Mb.1"><head>1b. Folis, íncipit i èxplicit</head><p>F. 192rb, <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit liber sapientie<hi rend="sup"> </hi>(<hi rend="italic">fi de rúbrica</hi>). Diligite iustitiam qui iudicatis terram. Sentite de domino in bonitate ...». F. 196va, <hi rend="italic">exp.:</hi> «... in omnibus enim magnificasti populum tuum, domine, et honorasti et non despexisti, in omni tempore et in omni loco assistens eis».</p></div>
+<div type="camp" n="III.Mb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Sapientia.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Mc" n="Mc"><head>Subpeça c</head>
+<div type="camp" n="III.Mc.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus in libro ecclesiastici (<hi rend="italic">fi de rúbrica</hi>). Multorum nobis et magnorum per legem et prophetas aliosque qui secuti sunt illos sapientia demonstrata est ...». F. 196vb, <hi rend="italic">exp.: </hi>«... et discere quemadmocum oporteat instituere mores qui secundum legem domini proposuerunt uitam agere».</p></div>
+<div type="camp" n="III.Mc.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p>Jesus <hi rend="smallcaps">ben Sirach, </hi><hi rend="italic">Prologus Ecclesiastici.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Md" n="Md"><head>Subpeça d</head>
+<div type="camp" n="III.Md.1"><head>1d. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit liber ecclesiasticus<hi rend="sup"> </hi>(<hi rend="italic">fi de rubrica</hi>). Omnis sapientia a domino deo est et cum illo fuit semper et est ante euum ...». F. 208vb, <hi rend="italic">exp.: </hi>«... Operamini opus (<hi rend="italic">f. 209ra</hi>) uestrum ante tempus et dabit uobis mercedem uestram in tempore suo».</p></div>
+<div type="camp" n="III.Md.2"><head n="Identificació de l’autor i obra: " type="valor">2d. Identificació de l’autor i obra</head><p><hi rend="italic">Liber Hiesu filii Sirach.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-N" n="N"><head>Peça N</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Na" n="Na"><head>Subpeça a</head>
+<div type="camp" n="III.Na.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus in libro Ysaie prophete (<hi rend="italic">fi de rúbrica</hi>). Nemo cum prophetas versibus uiderit esse descriptos ...». F. Ib, <hi rend="italic">exp.: </hi>«... qui scit me in peregrine lingue eruditione sudasse ne iudei de falsitate scripturarum ecclesiis eius (<hi rend="italic">f. 209rb</hi>) diutius insultarent».</p></div>
+<div type="camp" n="III.Na.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius</hi>, <hi rend="italic">Prologus in  libro Isaiae prophetae.</hi></p></div>
+<div type="camp" n="III.Na.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 150; BS [Pauli VI], vol. XIII, 2</p></div>
+<div type="camp" n="III.Na.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 482<hi rend="italic">.</hi></p></div>
+<div type="camp" n="III.Na.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 28, 825-828; <hi rend="italic">Préfaces </hi>123-124; BS [Pauli VI], vol. XIII, 3-5.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Nb" n="Nb"><head>Subpeça b</head>
+<div type="camp" n="III.Nb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit liber Ysaie prophete (<hi rend="italic">fi de rubrica</hi>). Visio Ysaie filii amos quam uidit super iudam et ierusalem in diebus ozie, ioathan, achaz et ezechie regum iuda ...». F. 223va, <hi rend="italic">exp.: </hi>«...Vermis eorum morietur et ignis eorum non extinguetur et erunt usque ad sacietatem uisionis omni carni».</p></div>
+<div type="camp" n="III.Nb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Isaias.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-O" n="O"><head>Peça O</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Oa" n="Oa"><head>Subpeça a</head>
+<div type="camp" n="III.Oa.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus ieremie prophete (<hi rend="italic">fi de rúbrica</hi>) Ieremias propheta cui hic prologus scribitur sermone quidem apud hebreos ysaie et osee et quibusdam aliis prophetis uidetur esse rusticior, sed sensibus par ...». Ib., <hi rend="italic">exp.: </hi>«... quam cotidie noui aliquid scriptitantem inuidorum insaniam prouocare».</p></div>
+<div type="camp" n="III.Oa.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius, </hi><hi rend="italic">Prologus in  libro Hieremiae prophetae.</hi></p></div>
+<div type="camp" n="III.Oa.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 155; BS [Pauli VI], vol. XIV, 4.</p></div>
+<div type="camp" n="III.Oa.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 487.</p></div>
+<div type="camp" n="III.Oa.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 28, 903-904; <hi rend="italic">Préfaces</hi> 124; BS [Pauli VI], vol. XIV, 5-6.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Ob" n="Ob"><head>Subpeça b</head>
+<div type="camp" n="III.Ob.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit ieremias propheta (<hi rend="italic">fi de rúbrica</hi>). Verba ieremie filii elchie de sacerdotibus qui fuerunt in anathot in terra beniamim ...». F. 239vb, <hi rend="italic">exp.: </hi>«... Et comedebat (<hi rend="italic">f. 240ra</hi>) panem coram eo semper cunctis diebus uite sue. Et cibaria eius cibaria perpetua dabantur ei a rege babilonis statuta per singulos dies usque ad diem mortis sue cunctis diebus uite eius».</p></div>
+<div type="camp" n="III.Ob.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Ieremias.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Oc" n="Oc"><head>Subpeça c</head>
+<div type="camp" n="III.Oc.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«Et factum est postquam in captiuitatem ductus est israel et ierusalem destructa est, sedit ieremias propheta flens et planxit lamentationem hanc in ierusalem et amaro animo suspirans et eiulans dixit. (<hi rend="italic">rúbrica</hi>) Incipiunt lamentationes iheremie. Aleph (<hi rend="italic">fi de rúbrica</hi>). Quomodo sedet sola ciuitas plena populo? Facta est quasi uidua domina gentium, princeps prouinciarum facta est sub tributo ...». F. 241rb, <hi rend="italic">exp.: </hi>«... Visitabit iniquitatem tuam, filia edom, discooperiet peccata tua».</p></div>
+<div type="camp" n="III.Oc.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="italic">Lamentationes.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Od" n="Od"><head>Subpeça d</head>
+<div type="camp" n="III.Od.1"><head>1d. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit oratio ieremie (<hi rend="italic">fi de rúbrica</hi>). Recordare domine quid acciderit nobis, intuere et respice obprobrium nostrum ...». F. 241va, <hi rend="italic">exp.: </hi>«... sed proiciens expulisti nos, iratus es contra nos uehementer».</p></div>
+<div type="camp" n="III.Od.2"><head n="Identificació de l’autor i obra:" type="valor">2d. Identificació de l’autor i obra</head><p><hi rend="italic"> Oratio Ieremiae (Lamentationes V, 1-22).</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-P" n="P"><head>Peça P</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Pa" n="Pa"><head>Subpeça a</head>
+<div type="camp" n="III.Pa.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus baruch (<hi rend="italic">fi de rúbrica</hi>). Iste liber qui baruch nomine prenotatur ...». Ib., <hi rend="italic">exp.: </hi>«... quia multa de christo nouissimisque temporibus indicant».</p></div>
+<div type="camp" n="III.Pa.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Praefatiuncula in libro Baruch.</hi></p></div>
+<div type="camp" n="III.Pa.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p>BS [Pauli VI], vol. XIV, 4.</p></div>
+<div type="camp" n="III.Pa.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 491.</p></div>
+<div type="camp" n="III.Pa.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 114, 64; <hi rend="italic">Préfaces </hi>133; BS [Pauli VI], vol. XIV, 7.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Pb" n="Pb"><head>Subpeça b</head>
+<div type="camp" n="III.Pb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit liber baruch. Primum capitulum (<hi rend="italic">fi de rúbrica</hi>). Et hec uerba libri que scripsit librum (<hi rend="italic">sic</hi>)<note place="foot" n="286">És probable que aquesta addició sigui una contaminació i tingui quelcom a veure amb el que es llegeix en el correctori d’Hug de Saint-Cher, Vat. Ottob. lat. 293 s. <hi rend="smallcaps">xiii-xiv: «</hi>In quibusdam bibliis sic incipit liber baruch<hi rend="smallcaps">: </hi>Et factum est in anno quinto, decima mensis, venit Nabuzardan princeps cocorum qui stabat ante faciem regis babilonie in ierusalem et succendit edem domini … et <hi rend="italic">scripsit librum</hi> baruch filius neeri filius etc.»: BS [Pauli VI], vol. XIV, 309 <hi rend="italic">in app</hi>.</note> baruch filius nerie, filii maasie, filii sedechie, filii sedei, filii helchie in babilonia in anno <hi rend="smallcaps">v</hi>º in <hi rend="smallcaps">viiª</hi> die mensis, in tempore quo ceperunt chaldei ierusalem et succenderunt eam igni ...». F. 242vb, <hi rend="italic">exp.: </hi>«... adducet enim deus israel cum iocunditate in lumine maiestatis sue cum misericordia et iusticia est in ipso».</p></div>
+<div type="camp" n="III.Pb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Baruch.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Pc" n="Pc"><head>Subpeça c</head>
+<div type="camp" n="III.Pc.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«Epistola ieremie ad abductos capituos in babiloniam a rege babiloniorum, ut annunciaret illis secundum quod preceptum est illi a deo. Propter peccata que peccastis ante deum adducemini in babiloniam captiui ...». F. 243va, <hi rend="italic">exp.: </hi>«... Meliorque est homo iniustus qui non habet simulacra. Nam erit longe ab opprobriis».</p></div>
+<div type="camp" n="III.Pc.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="italic">Epistola Ieremiae.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-Q" n="Q"><head>Peça Q</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Qa" n="Qa"><head>Subpeça a</head>
+<div type="camp" n="III.Qa.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus ezechielis (<hi rend="italic">fi de rúbrica</hi>). Ezechiel propheta cum ioachim rege iuda captiuus ductus est in babilonem ...». Ib., <hi rend="italic">exp.: </hi>«... ut uocentur quid a. t. o. r. l. o. ba. o. p., id est, phagolidoros, hoc est, apud nos manducans senecias».</p></div>
+<div type="camp" n="III.Qa.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius</hi>, <hi rend="italic">Prologus in  Hiezechielis prophetae.</hi></p></div>
+<div type="camp" n="III.Qa.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 162; BS [Pauli VI], vol. XV, 2.</p></div>
+<div type="camp" n="III.Qa.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 492.</p></div>
+<div type="camp" n="III.Qa.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 28, 993-996; <hi rend="italic">Préfaces</hi> 124-125; BS [Pauli VI], vol. XV, 5-6.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Qb" n="Qb"><head>Subpeça b</head>
+<div type="camp" n="III.Qb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit ezechiel propheta (<hi rend="italic">fi de rúbrica</hi>). Et factum est in <hi rend="smallcaps">xxx</hi>º anno in quarto mense, in quinta mensis, cum essem in medio captiuo rum iuxta fluuium chobar aperti sunt celi et uidi uisiones dei ...». F. 258vb, <hi rend="italic">exp.: </hi>«... per circuitum <hi rend="smallcaps">xviii </hi>Milia. Et nomen ciuitatis ex illa die dominus ibidem. Amen».</p></div>
+<div type="camp" n="III.Qb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Liber Hiezechielis.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-R" n="R"><head>Peça R</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Ra" n="Ra"><head>Subpeça a</head>
+<div type="camp" n="III.Ra.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Prologus in danielem (<hi rend="italic">fi de rúbrica</hi>). Danielem prophetam iuxta <hi rend="smallcaps">lxxª</hi> interpretes domini saluatoris ecclesie non legunt, utentes theodotionis editione, et hoc cur acciderit nescio ...». F. 259rb, <hi rend="italic">exp.: </hi>«... presentiumque iudiciis oblatrantium non satis moueor, qui in utramque partem aut amore labuntur aut odio. (<hi rend="italic">rúbrica</hi>) Explicit prologus».</p></div>
+<div type="camp" n="III.Ra.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius, </hi><hi rend="italic">Prologus in  Danielem prophetam.</hi></p></div>
+<div type="camp" n="III.Ra.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 166; BS [Ioannis Pauli II], vol. XVI, 3-4.</p></div>
+<div type="camp" n="III.Ra.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 494.</p></div>
+<div type="camp" n="III.Ra.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 28, 1357-1360; <hi rend="italic">Préfaces </hi>125-126; BS [Ioannis Pauli II], vol. XVI, 5-10.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Rb" n="Rb"><head>Subpeça b</head>
+<div type="camp" n="III.Rb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit liber danielis prophete (<hi rend="italic">fi de rúbrica</hi>). Anno tercio regni ioachim regis iude uenit nabuchodonosor rex babilonis ierusalem et obsedit eam ...». F. 265rb, <hi rend="italic">exp.: </hi>«... Tunc rex ait: Paueant habitantes uniuersam terram deum danielis, quia (<hi rend="italic">F. 265va</hi>) ipse est saluator et liberator, faciens signa et mirabilia in celo et in terra, qui liberauit danielem de lacu leonum».</p></div>
+<div type="camp" n="III.Rb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Liber Danihelis.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-S" n="S"><head>Peça S</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Sa" n="Sa"><head>Subpeça a</head>
+<div type="camp" n="III.Sa.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus <hi rend="smallcaps">xii</hi> prophetarum (<hi rend="italic">fi de rúbrica</hi>). Non idem ordo est <hi rend="smallcaps">xii </hi>prophetarum apud hebreos qui et apud nos ...». Ib., <hi rend="italic">exp.: </hi>«... qui ante eos habent titulos prophetauerunt».</p></div>
+<div type="camp" n="III.Sa.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius, </hi><hi rend="italic">Prologus XII  prophetarum.</hi></p></div>
+<div type="camp" n="III.Sa.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger </hi>170; BS [Ioannis Pauli II], vol. XVII, 3-4.</p></div>
+<div type="camp" n="III.Sa.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 500.</p></div>
+<div type="camp" n="III.Sa.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 28, 1071-1072; <hi rend="italic">Préfaces</hi> 135; BS [Ioannis Pauli II], vol. XVII, 8-9.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Sb" n="Sb"><head>Subpeça b</head>
+<div type="camp" n="III.Sb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Alius prologus (<hi rend="italic">fi de rúbrica</hi>). Temporibus ozie et ioache, achaz et ezechie regum iuda et iheroboam ...». F. 265vb, <hi rend="italic">exp.: </hi>«... tam pater eius quam ceteri reges consecrauerant templum dei purgasse et purificasse monstratur».</p></div>
+<div type="camp" n="III.Sb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Anònim,</hi> <hi rend="italic">Explanatio in Oseam.</hi></p></div>
+<div type="camp" n="III.Sb.3"><head n="Altres manuscrits: " type="valor">3b. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 174; BS [Ioannis Pauli II], vol. XVII, 5.</p></div>
+<div type="camp" n="III.Sb.4"><head n="Catàlegs i bibliografia: " type="valor">4b. Catàlegs i bibliografia</head><p>RB 507.</p></div>
+<div type="camp" n="III.Sb.5"><head n="Edició: " type="valor">5b. Edició</head><p><hi rend="italic">Préfaces </hi>136-137; BS [Ioannis Pauli II], vol. XVII, 17-18.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Sc" n="Sc"><head>Subpeça c</head>
+<div type="camp" n="III.Sc.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit osee propheta (<hi rend="italic">fi de rúbrica</hi>). Verbum domini quod factum est ad osee filium beeri in diebus ozie, ioachim, achaz, ezechie regum iuda ...». F. 267vb, <hi rend="italic">exp.: </hi>«... Quia recte uie domini et iusti ambulabunt in eis, preuaricatores uero corruent in eis».</p></div>
+<div type="camp" n="III.Sc.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="italic">Osee.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-T" n="T"><head>Peça T</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Ta" n="Ta"><head>Subpeça a</head>
+<div type="camp" n="III.Ta.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus iohel (<hi rend="italic">fi de rúbrica</hi>). Sanctus iohel apud hebreos post osee ponitur, et sicut ibi sub nomine effraym ...». Ib., <hi rend="italic">exp.: </hi>«... Et ysaias Audite celi et auribus percipe terra».</p></div>
+<div type="camp" n="III.Ta.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Anònim,</hi> <hi rend="italic">Explanatio in Iohel.</hi></p></div>
+<div type="camp" n="III.Ta.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 180; BS [Ioannis Pauli II], vol. XVII, 5.</p></div>
+<div type="camp" n="III.Ta.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 511.</p></div>
+<div type="camp" n="III.Ta.5"><head>5a. Edició</head><p>Edició<hi rend="italic">: Préfaces</hi> 137; BS [Ioannis Pauli II], vol. XVII, 18-19.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Tb" n="Tb"><head>Subpeça b</head>
+<div type="camp" n="III.Tb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Alius prologus (<hi rend="italic">fi de rúbrica</hi>). Ioel fatuel filius describit terram <hi rend="smallcaps">xii</hi> tribuum eruca, bruco, locusta, rubigine uastante consumptam, et post euersionem populi prioris ...». F. 268ra, <hi rend="italic">exp.: </hi>«... quod qui ostium dei et scientiam dei habuerit apertam recte incipit prophetare».</p></div>
+<div type="camp" n="III.Tb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius</hi>, <hi rend="italic">Prologus  Iohel, ex epistula LIII ad Paulinum desumptus et ex scholiis.</hi></p></div>
+<div type="camp" n="III.Tb.3"><head n="Altres manuscrits: " type="valor">3b. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 179; BS [Ioannis Pauli II], vol. XVII, 4.</p></div>
+<div type="camp" n="III.Tb.4"><head n="Catàlegs i bibliografia: " type="valor">4b. Catàlegs i bibliografia</head><p>RB 510.</p></div>
+<div type="camp" n="III.Tb.5"><head n="Edició: " type="valor">5b. Edició</head><p>PL 22, 546 (<hi rend="italic">partim</hi>); <hi rend="italic">Préfaces </hi>4 (<hi rend="italic">partim</hi>); BS [Ioannis Pauli II], vol. XVII, 8-9 et 14.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Tc" n="Tc"><head>Subpeça c</head>
+<div type="camp" n="III.Tc.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit iohel (<hi rend="italic">fi de rúbrica</hi>). Verbum domini quod factum est ad iohel filium fatuel: Audite hoc senes et auribus percipite omnes habitatores terre ...». F. 268vb, <hi rend="italic">exp.: </hi>«... Et mundabo sanguinem eorum quem non mundaueram et dominus commorabitur in syon».</p></div>
+<div type="camp" n="III.Tc.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="italic">Iohel.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-U" n="U"><head>Peça U</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Ua" n="Ua"><head>Subpeça a</head>
+<div type="camp" n="III.Ua.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Prologus amos prophete (<hi rend="italic">fi de rúbrica</hi>). Ozias rex cum dei religionem sollicite emularetur nimio religionis amore prouocatus contra preceptum legis moysi arrepto thuribulo ...». Ib., <hi rend="italic">exp.: </hi>«... immittendum predixit grauem atque irreuocabiulem dei iram ad euersionem earumdem ciuitatum processuram uoluit demonstrare».</p></div>
+<div type="camp" n="III.Ua.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Anònim, </hi><hi rend="italic">Explanatio in Amos</hi>.</p></div>
+<div type="camp" n="III.Ua.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 184; BS [Ioannis Pauli II], vol. XVII, 5.</p></div>
+<div type="camp" n="III.Ua.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 515.</p></div>
+<div type="camp" n="III.Ua.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces</hi> 137-138; BS [Ioannis Pauli II], vol. XVII, 20-21.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Ub" n="Ub"><head>Subpeça b</head>
+<div type="camp" n="III.Ub.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Alius prologus (<hi rend="italic">fi de rúbrica</hi>). Amos propheta, pastor et rusticus et ruborum moros distringens paucis uerbis explicari non potest ...». F. 269ra, <hi rend="italic">exp.: </hi>«… Ascende in montem excelsum tu qui euangelizas syon, exalta uocem tuam et cetera».</p></div>
+<div type="camp" n="III.Ub.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius,</hi> <hi rend="italic">Praefatiuncula in Amos ex epistula LIII desumpta et ex scholiis.</hi></p></div>
+<div type="camp" n="III.Ub.3"><head n="Altres manuscrits: " type="valor">3b. Altres manuscrits</head><p>B<hi rend="smallcaps">erger </hi>185<hi rend="smallcaps">; </hi>BS [Ioannis Pauli II], vol. XVII, 4.</p></div>
+<div type="camp" n="III.Ub.4"><head n="Catàlegs i bibliografia: " type="valor">4b. Catàlegs i bibliografia</head><p>RB 512.</p></div>
+<div type="camp" n="III.Ub.5"><head n="Edició: " type="valor">5b. Edició</head><p>PL 22, 546 (<hi rend="italic">partim</hi>); <hi rend="italic">Préfaces </hi>4-5 (<hi rend="italic">partim</hi>); BS [Ioannis Pauli II], vol. XVII, 9-10 (<hi rend="italic">partim</hi>).</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Uc" n="Uc"><head>Subpeça c</head>
+<div type="camp" n="III.Uc.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc,.: </hi>«(<hi rend="italic">rúbrica</hi>) Item alius prologus (<hi rend="italic">fi de rúbrica</hi>). Hic amos propheta non fuit pater ysaie prophete quamquam et ille propheta extiterit. Nam aliis litteris ille, aliis iste apud hebreos scribitur ...». Ib., <hi rend="italic">exp.: </hi>«... post aliquot dies dolore uulneris expirauit, sepultusque est cum patribus suis».</p></div>
+<div type="camp" n="III.Uc.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="italic">Prologus in Amos ex commentariis Hieronymi.</hi></p></div>
+<div type="camp" n="III.Uc.3"><head n="Altres manuscrits: " type="valor">3c. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 187; BS [Ioannis Pauli II], vol. XVII, 5.</p></div>
+<div type="camp" n="III.Uc.4"><head n="Catàlegs i bibliografia: " type="valor">4c. Catàlegs i bibliografia</head><p>RB 513.</p></div>
+<div type="camp" n="III.Uc.5"><head n="Edició: " type="valor">5c. Edició</head><p><hi rend="italic">Préfaces</hi> 150; BS [Ioannis Pauli II], vol. XVII, 16.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Ud" n="Ud"><head>Subpeça d</head>
+<div type="camp" n="III.Ud.1"><head>1d. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit amos propheta (<hi rend="italic">fi de rúbrica</hi>). Verba amos qui fuit in pastoralibus thecue, que uidit super israel in diebus ozie regis iuda et in diebus ieroboam filii ioas regis israel ...». F. 270vb, <hi rend="italic">exp.: </hi>«... Et plantabo eos super humum suam, et non euellam eos ultra de terra sua quam dedi eis, dicit dominus deus tuus».</p></div>
+<div type="camp" n="III.Ud.2"><head n="Identificació de l’autor i obra: " type="valor">2d. Identificació de l’autor i obra</head><p><hi rend="italic">Amos</hi>.</p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-V" n="V"><head>Peça V</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Va" n="Va"><head>Subpeça a</head>
+<div type="camp" n="III.Va.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib, <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Prologus abdie prophete (<hi rend="italic">fi de rúbrica</hi>). Iacob patriar cha fratrem habuit esau qui ob ruborem corporis sui edom hebrea lingua appellatus est, quod latine sanguineus dicitur ...». Ib., <hi rend="italic">exp.: </hi>«... ob causas lectione comprehensas et regnum dei in populo Israel significant».</p></div>
+<div type="camp" n="III.Va.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Anònim, </hi><hi rend="italic">Explanatio in Abdiam.</hi></p></div>
+<div type="camp" n="III.Va.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p>BS [Ioannis Pauli II], vol. XVII, 5.</p></div>
+<div type="camp" n="III.Va.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 519.</p></div>
+<div type="camp" n="III.Va.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces </hi>138; BS [Ioannis Pauli II], vol. XVII, 21-22.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Vb" n="Vb"><head>Subpeça b</head>
+<div type="camp" n="III.Vb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib, <hi rend="italic">inc.: </hi>«Ebrei hunc dicunt esse qui sub rege samarie achab et impiissima iezabel pauit <hi rend="smallcaps">c </hi>prophetas ...». Ib., <hi rend="italic">exp.: </hi>«... sic hic seruitute dei cum paulo apostolo nomine gloriatur Quia abdias seruus domini in nostro sonat eloquio. (<hi rend="italic">rúbrica</hi>) Explicit prologus».<note place="foot" n="287">BS [Ioannis Pauli II], vol. XVII, 21-22, i el nostre ms. consideren aquest fragment com una continuació de l’<hi rend="italic">Explanatio </hi>anterior.</note></p></div>
+<div type="camp" n="III.Vb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hieronymus Stridonius, </hi><hi rend="italic">Prologus Hieronymi ex Commentario in Abdiam.</hi></p></div>
+<div type="camp" n="III.Vb.3"><head n="Altres manuscrits: " type="valor">3b. Altres manuscrits</head><p>BS [Ioannis Pauli II], vol. XVII, 5.</p></div>
+<div type="camp" n="III.Vb.4"><head n="Catàlegs i bibliografia: " type="valor">4b. Catàlegs i bibliografia</head><p>RB 517.</p></div>
+<div type="camp" n="III.Vb.5"><head n="Edició: " type="valor">5b. Edició</head><p>PL 25, 1099; <hi rend="italic">Préfaces</hi> 138; BS [Ioannis Pauli II], vol. XVII, 22.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Vc" n="Vc"><head>Subpeça c</head>
+<div type="camp" n="III.Vc.1"><head>1c. Folis, íncipit i èxplicit</head><p>F. 271ra, <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit liber abdie prophete (<hi rend="italic">fi de rúbrica</hi>). Visio Abdie. Hec dicit dominus deus ad edom. Auditum audiuimus a domino et legatum ad gentes misit ...». F. 271rb, <hi rend="italic">exp.: </hi>«... Et ascendent saluatores in montem syon iudicare montem esau. Et erit domino regnum. Amen».</p></div>
+<div type="camp" n="III.Vc.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="italic">Abdias.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-X" n="X"><head>Peça X</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Xa" n="Xa"><head>Subpeça a</head>
+<div type="camp" n="III.Xa.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus in Ionam prophetam (<hi rend="italic">fi de rúbrica</hi>). Sanctum ionam hebrei affirmant filium fuisse mulieris sareptene uidue<hi rend="sup"> </hi>...». Ib., <hi rend="italic">exp.: </hi>«... Ideo a conspectu dei ionas fugere se putabat humanum aliquid passus, dicente dauid: Quo ibo a spiritu tuo et quo a facie tua fugiam?».</p></div>
+<div type="camp" n="III.Xa.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Anònim, </hi><hi rend="italic">Explanatio in Ionam.</hi></p></div>
+<div type="camp" n="III.Xa.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p>BS [Ioannis Pauli II], vol. XVII, 5.</p></div>
+<div type="camp" n="III.Xa.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 524.</p></div>
+<div type="camp" n="III.Xa.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces</hi> 138-139; BS [Ioannis Pauli II], vol. XVII, 23-24.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Xb" n="Xb"><head>Subpeça b</head>
+<div type="camp" n="III.Xb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Item alius prologus (<hi rend="italic">fi de rúbrica</hi>). Iona columba et dolens filius amathi qui fuit de geth que est in ophir ad gentium preconium mittitur ...». Ib., <hi rend="italic">exp.: </hi>«... qui est in secundo miliario sephor in itinere quo pergitur tyberiadem».</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Xc" n="Xc"><head>Subpeça c</head>
+<div type="camp" n="III.Xc.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Isidorus, </hi><hi rend="italic">De ortu et obitu patrum, </hi>cap. <hi rend="smallcaps">xlv.</hi></p></div>
+<div type="camp" n="III.Xc.3"><head n="Altres manuscrits: " type="valor">3c. Altres manuscrits</head><p>BS [Ioannis Pauli II], vol. XVII, 6.</p></div>
+<div type="camp" n="III.Xc.4"><head n="Catàlegs i bibliografia: " type="valor">4c. Catàlegs i bibliografia</head><p>RB 521.</p></div>
+<div type="camp" n="III.Xc.5"><head n="Edició: " type="valor">5c. Edició</head><p>PL 83, 144-145; <hi rend="italic">Préfaces</hi> 147ab; BS [Ioannis Pauli II], vol. XVII, 45.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Xd" n="Xd"><head>Subpeça d</head>
+<div type="camp" n="III.Xd.1"><head>1d. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit ionas propheta (<hi rend="italic">fi de rúbrica</hi>). Et factum est verbum domini ad ionam filium amathi dicens. Surge uade in niniuem ciuitatem grandem ...». F. 272ra, <hi rend="italic">exp.: </hi>«... qui nesciunt quid sit inter dexteram et sinistram suam et iumenta multa?».</p></div>
+<div type="camp" n="III.Xd.2"><head n="Identificació de l’autor i obra: " type="valor">2d. Identificació de l’autor i obra</head><p><hi rend="italic">Ionas.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-Y" n="Y"><head>Peça Y</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Ya" n="Ya"><head>Subpeça a</head>
+<div type="camp" n="III.Ya.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus michee prophete (<hi rend="italic">fi de rúbrica</hi>) Temporibus ioache et achaz et ezechie regum iuda micheam prophetam ad hanc prophetiam spiritu sancto repletum fuisse lectio ipsa demonstrat ...». Ib., <hi rend="italic">exp.: </hi>«... uerbis insequentibus captiuitatem et interitum affuturum denunciauit».</p></div>
+<div type="camp" n="III.Ya.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Anònim,</hi> <hi rend="italic">Explanatio in Michaeam.</hi></p></div>
+<div type="camp" n="III.Ya.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p>BS [Ioannis Pauli II], vol. XVII, 5.</p></div>
+<div type="camp" n="III.Ya.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 526.</p></div>
+<div type="camp" n="III.Ya.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces</hi> 139; BS [Ioannis Pauli II], vol. XVII, 24-25.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Yb" n="Yb"><head>Subpeça b</head>
+<div type="camp" n="III.Yb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit micheas propheta (<hi rend="italic">fi de rúbrica</hi>) Verbum domini quod factum est ad micheam morastiten in diebus ioathan, achaz, et ezechie regum iuda, quod uidit super samariam et ierusalem ...». F. 273rb, <hi rend="italic">exp.: </hi>«... dabis ueritatem iacob, misericordiam abraham, patribus nostris a diebus antiquis».</p></div>
+<div type="camp" n="III.Yb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Michaeas.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-Z" n="Z"><head>Peça Z</head>
+<div type="subpeca" xml:id="ACG-Ms-5-Za" n="Za"><head>Subpeça a</head>
+<div type="camp" n="III.Za.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus in libro naum prophete (<hi rend="italic">fi de rúbrica</hi>). Naum prophetam ante aduentum regis assiriorum qui populum israel captiuum in suas regiones transtulerat fuisse hebreorum tradicio confirmat ...». Ib., <hi rend="italic">exp.: </hi>«... ut audirent assyrios quoque a chaldeis esse capiendos sicut in consequentibus libri huius demonstrabitur».</p></div>
+<div type="camp" n="III.Za.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Anònim, </hi><hi rend="italic">Explanatio in Naum prophetam.</hi></p></div>
+<div type="camp" n="III.Za.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p>BS [Ioannis Pauli II], vol. XVII, 5.</p></div>
+<div type="camp" n="III.Za.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 528.</p></div>
+<div type="camp" n="III.Za.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces </hi>139-140; BS [Ioannis Pauli II], vol. XVII, 25-26.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-Zb" n="Zb"><head>Subpeça b</head>
+<div type="camp" n="III.Zb.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit naum propheta (<hi rend="italic">fi de rúbrica</hi>). Onus niniue liber uisionis naum helcesei. Dominus emulator et ulciscens deus ...». F. 273vb, <hi rend="italic">exp.: </hi>«... Omnes qui audierunt auditionem tuam compresserunt manum super te. Quia super quem non transiit malicia tua semper?».</p></div>
+<div type="camp" n="III.Zb.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Naum.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-A-2" n="A"><head>Peça A</head>
+<div type="subpeca" xml:id="ACG-Ms-5-A-2a" n="Aa"><head>Subpeça a</head>
+<div type="camp" n="III.Aa.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.:</hi> «(<hi rend="italic">rúbrica</hi>) Incipit prologus in libro abachuc prophete (<hi rend="italic">fi de  rúbrica</hi>). Quatuor prophete in <hi rend="smallcaps">xii</hi> prophetarum uolumine sunt e quibus tres in principio lemna, id est, pondus titulum habent, naum, abacuc et malachias ...». F. 274rb, <hi rend="italic">exp.: </hi>«... sic sanctus uir et bellator inuictus ad exercendum se et probandum tribulationem et miseriam uenire desiderat».</p></div>
+<div type="camp" n="III.Aa.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Anònim, </hi><hi rend="italic">Explanatio in Habacuc prophetam.</hi></p></div>
+<div type="camp" n="III.Aa.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p>BS [Ioannis Pauli II], vol. XVII, 5</p></div>
+<div type="camp" n="III.Aa.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 531</p></div>
+<div type="camp" n="III.Aa.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces </hi>140-141; BS [Ioannis Pauli II], vol. XVII, 28-31.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-A-2b" n="Ab"><head>Subpeça b</head>
+<div type="camp" n="III.Ab.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.:</hi> «(<hi rend="italic">rúbrica</hi>) Incipit liber abachuch propheta (<hi rend="italic">sic</hi>) (<hi rend="italic">fi de rúbrica</hi>). Onus quod uidit abacuc propheta. Usquequo domine clamabo et non exaudies? ...». F. 274vb, <hi rend="italic">exp.: </hi>«... Deus dominus fortitudo mea et ponet pedes meos quasi ceruorum et super excelsa mea deducet me uictor in psalmis canentem».</p></div>
+<div type="camp" n="III.Ab.2"><head n="Identificació de l’autor i obra:" type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic"> Habacuc.</hi></p></div>
+</div>
+</div>
+<div type="peca" xml:id="ACG-Ms-5-B-2" n="B"><head>Peça B</head>
+<div type="subpeca" xml:id="ACG-Ms-5-B-21a" n="B1a"><head>Subpeça a (sèrie 1)</head>
+<div type="camp" n="III.B1a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus sophonie prophete (<hi rend="italic">fi de rúbrica</hi>). Tradunt hebrei cuiuscumque prophete pater aut auus ponatur in titulo ipsos quoque prophetas fuisse ...». F. 275ra, <hi rend="italic">exp.: </hi>«... et ciuitati ierusalem restauracionem tunc temporis tribuendam textu lectionis denuntiauit».</p></div>
+<div type="camp" n="III.B1a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Anònim, </hi><hi rend="italic">Explanatio in Sophoniam.</hi></p></div>
+<div type="camp" n="III.B1a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p>BS [Ioannis Pauli II], vol. XVII, 5.</p></div>
+<div type="camp" n="III.B1a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 534.</p></div>
+<div type="camp" n="III.B1a.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces </hi>141-142; BS [Ioannis Pauli II], vol. XVII, 31-33.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-21b" n="B1b"><head>Subpeça b (sèrie 1)</head>
+<div type="camp" n="III.B1b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit sophonias propheta (<hi rend="italic">fi de rúbrica</hi>). Uerbum domini quod factum est ad sophaniam (<hi rend="italic">sic</hi>) filium chusi, filii godolie, filii amasie, filii ezechie, in diebus iosie, filii amon, regis iuda ...». F. 275vb, <hi rend="italic">exp.: </hi>«... cum conuertero captiuitatem uestram coram oculis uestris dicit dominus».</p></div>
+<div type="camp" n="III.B1b.2"><head n="Identificació de l’autor i obra:" type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic"> Sophonias.</hi> Γ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-22a" n="B2a"><head>Subpeça a (sèrie 2)</head>
+<div type="camp" n="III.B2a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus aggei prophete (<hi rend="italic">fi de rúbrica</hi>). Iere mias propheta ob causam periurii sedechie regis ut in hystoria libri secundi paralipomenon indicatur ... ». F. 276ra, <hi rend="italic">exp.: </hi>«... reuersionem populi, edificationem templi, renouationem ciuitatis, obseruantiam sacerdotalem et interitum regnorum exterorum significant».</p></div>
+<div type="camp" n="III.B2a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Anònim, </hi><hi rend="italic">Explanatio in Aggeum.</hi></p></div>
+<div type="camp" n="III.B2a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p>BS [Ioannis Pauli II], vol. XVII, 5.</p></div>
+<div type="camp" n="III.B2a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p><hi rend="smallcaps">Berger</hi> 161, RB 538.</p></div>
+<div type="camp" n="III.B2a.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces </hi>142; BS [Ioannis Pauli II], vol. XVII, 33-35.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-22b" n="B2b"><head>Subpeça b (sèrie 2)</head>
+<div type="camp" n="III.B2b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit liber aggei prophete (<hi rend="italic">fi de rúbrica</hi>). In anno secundo darii regis persarum in mense <hi rend="smallcaps">vi</hi>º, in die una mensis, factum est uerbum domini in manu aggei prophete ad zorababel ...». F. 276rb, <hi rend="italic">exp.: </hi>«... et ponam te quasi signaculum quia te elegi, dicit dominus exercituum».</p></div>
+<div type="camp" n="III.B2b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Aggeus.</hi> Δ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-23a" n="B3a"><head>Subpeça a (sèrie 3)</head>
+<div type="camp" n="III.B3a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus zacharie (<hi rend="italic">fi de rúbrica</hi>). Anno secundo darii regis medorum aggeum et zachariam prophetasse lectiones eorumdem declarauit (<hi rend="italic">sic</hi>). Sed hac de causa aggeus za-(<hi rend="italic">f. 276va</hi>)-charie in ordine prophetarum prelatus esse uidetur ...». F. 276va, <hi rend="italic">exp.: </hi>«... Liberatio eiusdem ac reditus capituitatis de terra chaldeorum per noctem prophete est reuelata in mense octauo».</p></div>
+<div type="camp" n="III.B3a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Anònim, </hi><hi rend="italic">Explanatio in Zachariam.</hi></p></div>
+<div type="camp" n="III.B3a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p>BS [Ioannis Pauli II], vol. XVII, 5.</p></div>
+<div type="camp" n="III.B3a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 539.</p></div>
+<div type="camp" n="III.B3a.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces</hi> 143; BS [Ioannis Pauli II], vol. XVII, 36-37.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-23b" n="B3b"><head>Subpeça b (sèrie 3)</head>
+<div type="camp" n="III.B3b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«In anno secundo<hi rend="sup"> </hi>darii factum est uerbum domini ad zacha riam filium barachie filii abdo prophetam dicens: Iratus est dominus ...». F. 279ra, <hi rend="italic">exp: </hi>«... Et uenient omnes immolantes et assument (<hi rend="italic">seq</hi> es <hi rend="italic">expunc</hi>) ex eis et coquent in eis. Et non erit mercator ultra in domo domini exerci tuum in die illa».</p></div>
+<div type="camp" n="III.B3b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Zacharias.</hi> Ε</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-24a" n="B4a"><head>Subpeça a (sèrie 4)</head>
+<div type="camp" n="III.B4a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus malachie prophete (<hi rend="italic">fi de rúbrica</hi>). Deus per moysen populo israeli preceperat sacerdotes tabernaculi sui omni corporali uicio liberos hostias sine uicio uacuas sibi offerre ...». F. 279rb, <hi rend="italic">exp.: </hi>«... preuaricationem populi israel in obseruandis sacrificiis dei increpationemque in eumdem quod deos alienos coluerunt significat».</p></div>
+<div type="camp" n="III.B4a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Anònim, </hi><hi rend="italic">Explanatio in Malachiam.</hi></p></div>
+<div type="camp" n="III.B4a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p>BS [Ioannis Pauli II], vol. XVII, 5.</p></div>
+<div type="camp" n="III.B4a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 543.</p></div>
+<div type="camp" n="III.B4a.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces</hi> 143-144; BS [Ioannis Pauli II], vol. XVII, 38-39.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-24b" n="B4b"><head>Subpeça b (sèrie 4)</head>
+<div type="camp" n="III.B4b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit liber malachie prophete (<hi rend="italic">fi de rúbrica</hi>). Onus uerbi domini ad israel in manu malachi prophete. Dilexi uos dicit dominus, et dixistis: In quo dilexisti nos? ...». F. 279vb, <hi rend="italic">exp.: </hi>«... Ecce ego mittam uobis helyam prophetam ante- (<hi rend="italic">f. 280ra</hi>)-quam ueniat dies domini magnus et horribilis. Et conuertet cor patrum ad filios et cor filiorum ad patres eorum, ne forte ueniam et percuciam terram anathemate. amen».</p></div>
+<div type="camp" n="III.B4b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Malachias.</hi> Ζ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-25a" n="B5a"><head>Subpeça a (sèrie 5)</head>
+<div type="camp" n="III.B5a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rubrica</hi>) Incipit prologus machabeorum (<hi rend="italic">fi de rúbrica</hi>). Domino excellentissimo et in cultu christiane religionis strenuissimo ludouico regi, Rabanus uilissimus seruorum dei in domino dominorum, perpetuam optat salutem. Cum sim promptus animorum ad parendum atque seruiendum uestre uoluntati ...». Ib., <hi rend="italic">exp.: </hi>«... ad multorum salutem custodiat et post huius uite cursum ad ueram et eternam beatitudinem peruenire concedat».</p></div>
+<div type="camp" n="III.B5a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hrabanus Maurus, </hi><hi rend="italic">Prologus I Maccha beorum </hi>[<hi rend="italic">ex Epistula ad Ludovicum regem</hi>].</p></div>
+<div type="camp" n="III.B5a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger </hi>192; BS [Ioannis Pauli II], vol. XVIII, 3.</p></div>
+<div type="camp" n="III.B5a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 547.</p></div>
+<div type="camp" n="III.B5a.5"><head n="Edició: " type="valor">5. Edició</head><p>PL 109, 1125; <hi rend="italic">Préfaces </hi>152; BS [Ioannis Pauli II], vol. XVIII, 6-7.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-25b" n="B5b"><head>Subpeça b (sèrie 5)</head>
+<div type="camp" n="III.B5b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Alius prologus (<hi rend="italic">fi de rúbrica</hi>). (<hi rend="italic">F. 280rb</hi>) Reuerentissimo domino et omni caritatis officio dignissimo geroldo sacri palacii archi diacono, Rabanus uilis dei seruus seruorum in christo, salutem. Memini me in palatio uuangionum ciuitatis constitutum tecum habere sermonem de eminencia sacrarum scripturarum...». Ib., <hi rend="italic">exp.: </hi>«... fraternitatem tuam diuina maiestas prosperis successibus pollentem eterne beatitudinis gaudia promerentem omni tempore nostri memorem conseruare dignetur».</p></div>
+<div type="camp" n="III.B5b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Hrabanus Maurus</hi>, <hi rend="italic">Prologus II Maccha beorum [ex epistula ad Geroldum].</hi></p></div>
+<div type="camp" n="III.B5b.3"><head n="Altres manuscrits: " type="valor">3b. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 192; BS [Ioannis Pauli II], vol. XVIII, 3.</p></div>
+<div type="camp" n="III.B5b.4"><head n="Catàlegs i bibliografia: " type="valor">4b. Catàlegs i bibliografia</head><p>RB 553.</p></div>
+<div type="camp" n="III.B5b.5"><head n="Edició: " type="valor">5b. Edició</head><p>PL 109, 1127; <hi rend="italic">Préfaces </hi>152; BS [Ioannis Pauli II], vol. XVIII, 8.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-25c" n="B5c"><head>Subpeça c (sèrie 5)</head>
+<div type="camp" n="III.B5c.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Alius prologus (<hi rend="italic">fi de rúbrica</hi>). Machabeorum libri duo prenotant prelia inter hebreorum duces gentemque persarum pugnam quoque sabbatorum ...». Ib., <hi rend="italic">exp.: </hi>«... non solum non fleuit, sed et gaudens ortabatur ad gloriam passionis».</p></div>
+<div type="camp" n="III.B5c.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Anònim</hi>, <hi rend="italic">Prologus in libros Macchabeorum.</hi></p></div>
+<div type="camp" n="III.B5c.3"><head n="Altres manuscrits: " type="valor">3c. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 189; BS [Ioannis Pauli II], vol. XVIII, 3</p></div>
+<div type="camp" n="III.B5c.4"><head n="Catàlegs i bibliografia: " type="valor">4c. Catàlegs i bibliografia</head><p>RB 551.</p></div>
+<div type="camp" n="III.B5c.5"><head n="Edició: " type="valor">5c. Edició</head><p><hi rend="italic">Préfaces </hi>152; BS [Ioannis Pauli II], vol. XVIII, 6.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-25d" n="B5d"><head>Subpeça d (sèrie 5)</head>
+<div type="camp" n="III.B5d.1"><head>1d. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit primus liber machabeorum [<hi rend="italic">seq </hi>prophetarum <hi rend="italic">cancell</hi>] (<hi rend="italic">fi de rúbrica. F. 280va</hi><hi rend="smallcaps">). </hi>Et factum est postquam percussit alexander philippi rex macedo, qui primus regnauit in grecia, egressus est de terra cethim percussit darium regem persarum et medorum et constituit prelia multa ...». F. 290ra, <hi rend="italic">exp.: </hi>«... Ecce hec scripta sunt in libro dierum sacerdocii (<hi rend="italic">corr pro</hi> sacerdotum) eius ex quo factus est princeps sacerdotum post patrem suum.».</p></div>
+<div type="camp" n="III.B5d.2"><head n="Identificació de l’autor i obra: " type="valor">2d. Identificació de l’autor i obra</head><p><hi rend="italic">Liber I Macchabeorum.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-25e" n="B5e"><head>Subpeça e (sèrie 5)</head>
+<div type="camp" n="III.B5e.1"><head>1e. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit secundus liber machabeorum (<hi rend="italic">fi de rúbrica</hi>). Fratribus qui sunt per egyptum iudeis salutem dicunt fratres qui sunt in ierosolimis iudei et qui in regione iudea et pacem bonam...». F. 296vb, <hi rend="italic">exp.:</hi> «... Sicut enim uinum semper bibere aut semper aquam contrarium est, alterius autem uti delectabile, ita legentibus si semper exactus sit sermo non erit ingratus. Hic ergo erit consummatus. (<hi rend="italic">rúbrica</hi>) Explicit liber machabeorum<hi rend="smallcaps">».</hi></p></div>
+<div type="camp" n="III.B5e.2"><head n="Identificació de l’autor i obra: " type="valor">2e. Identificació de l’autor i obra</head><p><hi rend="italic">Liber II Macchabeorum.</hi> Η</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-26a" n="B6a"><head>Subpeça a (sèrie 6)</head>
+<div type="camp" n="III.B6a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus mathei (<hi rend="italic">fi de rúbrica</hi>). Matheus ex iudea, sicut in ordine primus ponitur, ita euangelium in iudea primus scripsit, uocatio ad deum ex publicanis ...». Ib., <hi rend="italic">exp.: </hi>«... Nobis enim hoc in studio argumenti fuit et fidem facte rei tradere et operantis dei intelligendam diligenter esse dispositionem querentibus non tacere».</p></div>
+<div type="camp" n="III.B6a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Praefatio uel argumentum Matthaei.</hi></p></div>
+<div type="camp" n="III.B6a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 199.</p></div>
+<div type="camp" n="III.B6a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 590.</p></div>
+<div type="camp" n="III.B6a.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="smallcaps">Wordsworth</hi>, I, 15-17; <hi rend="smallcaps">Corssen, </hi><hi rend="italic">Monarchianische Prologe,</hi> 5-7; <hi rend="italic">Préfaces </hi>170-171; <hi rend="smallcaps">Aland,</hi> 538, 547.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-26b" n="B6b"><head>Subpeça b (sèrie 6)</head>
+<div type="camp" n="III.B6b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.. </hi>«(<hi rend="italic">rúbrica</hi>) Item alius prologus (<hi rend="italic">fi de rúbrica</hi>). Matheus cum primo predicasset euangelium in iudea uolens transire ad gentes, primus euangelium scripsit hebraice ...». F. 297ra, <hi rend="italic">exp.: </hi>«... in homine humanitas. In uitulo sacerdotium. In leone regnum. In aquila exprimitur diuinitatis sacramentum».</p></div>
+<div type="camp" n="III.B6b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p>Walafridus <hi rend="smallcaps">Strabus, </hi><hi rend="italic">[Glossa ordinaria] Prologus in Evangelium Matthaei.</hi></p></div>
+<div type="camp" n="III.B6b.3"><head n="Altres manuscrits: " type="valor">3b. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 200.</p></div>
+<div type="camp" n="III.B6b.4"><head n="Catàlegs i bibliografia: " type="valor">4b. Catàlegs i bibliografia</head><p>RB 589.</p></div>
+<div type="camp" n="III.B6b.5"><head n="Edició: " type="valor">5b. Edició</head><p>PL 114, 63-65; <hi rend="italic">Préfaces </hi>183-184.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-26c" n="B6c"><head>Subpeça c (sèrie 6)</head>
+<div type="camp" n="III.B6c.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit euangelium secundum Matheum (<hi rend="italic">fi de rúbrica</hi>) Liber generacionis ihesu xpi filii dauid, filii abraham ...». F. 306rb, <hi rend="italic">exp.: </hi>«... Et ecce ego uobiscum sum omnibus diebus usque ad consummacionem seculi».</p></div>
+<div type="camp" n="III.B6c.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="italic">Evangelium secundum Matthaeum.</hi> Θ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-27a" n="B7a"><head>Subpeça a (sèrie 7)</head>
+<div type="camp" n="III.B7a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus marci euangeliste (<hi rend="italic">fi de rúbrica</hi>). Marchus euangelista dei electus et petri in baptismate filius atque in diuino sermone discipulus, sacerdocium in israel agens secundum carnem leuita, ad fidem christi conuersus euuangelium in ytalia scripsit ...». F. 306va, <hi rend="italic">exp.: </hi>«... Denique inquisita uolumus agnosci habentes mercedem exhortationis, quoniam qui plantat et qui rigat unum sunt. Qui autem incrementum prestat deus est».</p></div>
+<div type="camp" n="III.B7a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Praefatio uel argumentum Marci.</hi></p></div>
+<div type="camp" n="III.B7a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 225.</p></div>
+<div type="camp" n="III.B7a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 607<hi rend="italic">.</hi></p></div>
+<div type="camp" n="III.B7a.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="smallcaps">Wordsworth</hi>, I, 171-173; <hi rend="smallcaps">Corssen</hi> 9-10; <hi rend="italic">Préfaces </hi>171-172; <hi rend="smallcaps">Aland</hi> 539, 547.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-27b" n="B7b"><head>Subpeça b (sèrie 7)</head>
+<div type="camp" n="III.B7b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) <hi rend="smallcaps">I</hi>ncipit marcus euangelista (<hi rend="italic">fi de rúbrica</hi>). Inicium euangelii ihesu christi filii dei. Sicut scriptum est in ysaia propheta: Ecce ego mitto angelum meum ante faciem tuam ...». F. 312rb, <hi rend="italic">exp.: </hi>«... Illi autem profecti predicauerunt ubique domino cooperante et sermonem confirmante sequentibus signis».</p></div>
+<div type="camp" n="III.B7b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Evangelium secundum Marcum.</hi> Ι</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-28a" n="B8a"><head>Subpeça a (sèrie 8)</head>
+<div type="camp" n="III.B8a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Prologus luce euangeliste (<hi rend="italic">fi de rúbrica</hi>). Quoniam quidem multi conati sunt ordinare narrationem que in nobis complete sunt rerum ...». Ib., <hi rend="italic">exp.: </hi>«... ex ordine tibi scribere, optime theophile, ut cognoscas eorum uerborum de quibus eruditus es ueritatem».</p></div>
+<div type="camp" n="III.B8a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Prologus Lucae.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-28b" n="B8b"><head>Subpeça b (sèrie 8)</head>
+<div type="camp" n="III.B8b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Prologus super lucam (<hi rend="italic">fi de rúbrica</hi>). Lucas, syrus nacione, antiochensis, arte medicus, discipulus apostolorum, paulum secutus postea usque ad consummacionem confessionemque eius, seruiens domino fuit sine crimine<hi rend="sup"> </hi>...». F. 312va, <hi rend="italic">exp.: </hi>«... publicam curiositatem nec non tantum uolentibus deum demonstrare uideremur quam fastidientibus prodidisse».</p></div>
+<div type="camp" n="III.B8b.2"><head>2b. Identificació de l’autor i obra</head><p>Identificació de l’autor i obra<hi rend="italic">: Praefatio uel argumentum Lucae.</hi></p></div>
+<div type="camp" n="III.B8b.3"><head n="Altres manuscrits: " type="valor">3b. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 230.</p></div>
+<div type="camp" n="III.B8b.4"><head n="Catàlegs i bibliografia: " type="valor">4b. Catàlegs i bibliografia</head><p>RB 620.</p></div>
+<div type="camp" n="III.B8b.5"><head n="Edició: " type="valor">5b. Edició</head><p>PL 30, 643-644; <hi rend="smallcaps">Wordsworth</hi>, I, 269-271; <hi rend="smallcaps">Corssen </hi>7-9; <hi rend="italic">Préfaces </hi>172; <hi rend="smallcaps">Aland</hi> 539, 547.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-28c" n="B8c"><head>Subpeça c (sèrie 8)</head>
+<div type="camp" n="III.B8c.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit lucas euangelista (<hi rend="italic">fi de rúbrica</hi>). Fuit in diebus herodis regis iudee sacerdos quidam nomine zacharias de uice abya et uxor illius de filiabus aaron et nomen eius elysabeth ...». F. 322rb, <hi rend="italic">exp.: </hi>«... Et ipsi adorantes regressi sunt in ierusalem cum gaudio magno. Et erant semper in templo laudantes et benedicentes deum».</p></div>
+<div type="camp" n="III.B8c.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="italic">Evangelium secundum Lucam.</hi> Κ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-29a" n="B9a"><head>Subpeça a (sèrie 9)</head>
+<div type="camp" n="III.B9a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus secundum Iohannem (<hi rend="italic">fi de rúbrica</hi>). Hic est iohannes euuangelista unus ex discipulis domini qui uirgo a deo electus est, quem de nuptiis uolentem nubere uocauit deus ...». F. 322va, <hi rend="italic">exp.: </hi>«... ut sciendi desiderio collocato et querentibus fructus laboris et deo magisterii doctrina seruetur».</p></div>
+<div type="camp" n="III.B9a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Praefatio uel argumentum Iohannis. </hi></p></div>
+<div type="camp" n="III.B9a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 236.</p></div>
+<div type="camp" n="III.B9a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 624.</p></div>
+<div type="camp" n="III.B9a.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="smallcaps">Wordsworth</hi>, I, 485-487; <hi rend="smallcaps">Corssen</hi> 6-7; <hi rend="italic">Préfaces </hi>173; <hi rend="smallcaps">Aland</hi> 538-539, 548.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-29b" n="B9b"><head>Subpeça b (sèrie 9)</head>
+<div type="camp" n="III.B9b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit euangelium secundum iohannem (<hi rend="italic">fi de rúbrica</hi>). In principio erat uerbum Et uerbum erat apud deum et deus erat uerbum. Hoc erat in principio apud deum ...». F. 330rb, <hi rend="italic">exp.: </hi>«... Sunt autem et alia multa que fecit ihesus, que si scribantur per singula nec ipsum arbitror mundum capere eos qui scribendi sunt libros».</p></div>
+<div type="camp" n="III.B9b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Evangelium secundum Johannem.</hi> Λ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-210a" n="B10a"><head>Subpeça a (sèrie 10)</head>
+<div type="camp" n="III.B10a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Prologus in epistolam ad romanos (<hi rend="italic">fi de rúbrica</hi>). Romani sunt in partibus ytalie ...». Ib., <hi rend="italic">exp.: </hi>«... et euangelicam fidem scribens eis a chorintho per timo theum».</p></div>
+<div type="camp" n="III.B10a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum Marcioniticum in epistolam  ad Romanos.</hi></p></div>
+<div type="camp" n="III.B10a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 280 A.</p></div>
+<div type="camp" n="III.B10a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 677.</p></div>
+<div type="camp" n="III.B10a.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces</hi> 235ª; <hi rend="smallcaps">Wordsworth</hi>, II, 41-42.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-210b" n="B10b"><head>Subpeça b (sèrie 10)</head>
+<div type="camp" n="III.B10b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Epistola ad romanos (<hi rend="italic">fi de rúbrica</hi>). Paulus seruus ihesu xpi uocatus apostolus segregatus in euuangelium dei quod ante promiserat per prophetas suos in scripturis sanctis ...». F. 333vb, <hi rend="italic">exp.: </hi>«... secundum preceptum eterni dei ad obedicionem fidei in cunctis gentibus cogniti soli sapienti deo per ihesum christum. Cui est honor et gloria in secula seculorum amen».</p></div>
+<div type="camp" n="III.B10b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Paulus, </hi><hi rend="italic">Epistula ad Romanos.</hi> Μ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-211a" n="B11a"><head>Subpeça a (sèrie 11)</head>
+<div type="camp" n="III.B11a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Prologus (<hi rend="italic">fi de rúbrica</hi>). Corinthi sunt achaici. Et hii similiter ab apostolo audierunt uerbum ueritatis ...». F. 334ra, <hi rend="italic">exp.: </hi>«... scribens eis ab epheso per timotheum discipulum suum».</p></div>
+<div type="camp" n="III.B11a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum in Epistulam ad Corinthios  primam.</hi></p></div>
+<div type="camp" n="III.B11a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 280 B.</p></div>
+<div type="camp" n="III.B11a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 685.</p></div>
+<div type="camp" n="III.B11a.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 191, 1533; <hi rend="italic">Préfaces </hi>235ª;<hi rend="smallcaps"> Wordsworth, II</hi>, 153<hi rend="italic">.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-211b" n="B11b"><head>Subpeça b (sèrie 11)</head>
+<div type="camp" n="III.B11b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Ad corinthios epistola (<hi rend="italic">fi de rúbrica</hi>). Paulus uocatus apostolus christi ihesu per uoluntatem dei, et sosthenes frater ecclesie dei que est chorinthi, sanctificatis in christo ihesu, uocatis sanctis cum omnibus qui inuocant nomen domini nostri ihesu christi ...». F. 337va, <hi rend="italic">exp.: </hi>«... Gratia domini nostri ihesu christi uobiscum. Caritas mea cum omnibus uobis in christo ihesu domino nostro. Amen».</p></div>
+<div type="camp" n="III.B11b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Paulus, </hi><hi rend="italic">Epistula I ad Corinthios.</hi> Ν</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-212a" n="B12a"><head>Subpeça a (sèrie 12)</head>
+<div type="camp" n="III.B12a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Prologus in secunda epistola ad corinthios (<hi rend="italic">fi de  rúbrica</hi>). Post actam penitentiam consolatoriam scribit eis epistolam...». Ib., <hi rend="italic">exp.: </hi>«... hortatur ad meliora contristatos quidem eos sed emendatos ostendens».</p></div>
+<div type="camp" n="III.B12a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum in Epistulam ad Corinthios  secundam.</hi></p></div>
+<div type="camp" n="III.B12a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 280 C.</p></div>
+<div type="camp" n="III.B12a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 700.</p></div>
+<div type="camp" n="III.B12a.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 192, 9; <hi rend="italic">Préfaces</hi> 235ª-236ª; <hi rend="smallcaps">Wordsworth</hi>, II, 279.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-212b" n="B12b"><head>Subpeça b (sèrie 12)</head>
+<div type="camp" n="III.B12b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit secunda epistola ad corinthios (<hi rend="italic">fi de rúbrica</hi>). Paulus apostolus christi ihesu per uoluntatem dei et thimotheus frater, ecclesie dei que est corinthi cum omnibus sanctis qui sunt in uniuersa achaia ...». F. 340ra, <hi rend="italic">exp.: </hi>«... Gratia domini nostri ihesu christi et caritas dei et communicatio spiritus sancti sit cum omnibus uobis. amen».</p></div>
+<div type="camp" n="III.B12b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Paulus</hi>, <hi rend="italic">Epistula II ad Corinthios.</hi> Ξ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-213a" n="B13a"><head>Subpeça a (sèrie 13)</head>
+<div type="camp" n="III.B13a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Prologus ad galathas (<hi rend="italic">fi de rúbrica</hi>). Galathe sunt greci. Hii uerbum ueritatis ...». Ib., <hi rend="italic">exp.: </hi>«... hos apostolus reuocat ad fidem ueritatis scribens eis ab epheso».</p></div>
+<div type="camp" n="III.B13a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum in epistulam ad Galathas.</hi></p></div>
+<div type="camp" n="III.B13a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 280 D.</p></div>
+<div type="camp" n="III.B13a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 707</p></div>
+<div type="camp" n="III.B13a.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces </hi>236ª;<hi rend="smallcaps"> Wordsworth</hi>, II, 355.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-213b" n="B13b"><head>Subpeça b (sèrie 13)</head>
+<div type="camp" n="III.B13b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.. </hi>«(<hi rend="italic">rúbrica</hi>) Incipit epistola ad galathas (<hi rend="italic">fi de rúbrica</hi>). Paulus apostolus non ab hominibus neque per hominem, sed per ihesum christum et deum patrem qui suscitauit eum a mortuis ...». F. 341rb, <hi rend="italic">exp.: </hi>«... Gratia domini nostri ihesu christi cum spiritu uestro fratres amen».</p></div>
+<div type="camp" n="III.B13b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Paulus, </hi><hi rend="italic">Epistula ad Galatas.</hi> Ο</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-214a" n="B14a"><head>Subpeça a (sèrie 14)</head>
+<div type="camp" n="III.B14a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus in epistola ad ephesios (<hi rend="italic">fi de rúbrica</hi>). Ephesii sunt asiani. Hii accepto uerbo ...». Ib., <hi rend="italic">exp.: </hi>«... Hos collaudat apostolus scribens eis a roma de carcere per tithicum diachonem».</p></div>
+<div type="camp" n="III.B14a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum in epistulam ad Ephesios.</hi></p></div>
+<div type="camp" n="III.B14a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 715.</p></div>
+<div type="camp" n="III.B14a.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces</hi> 236ª;<hi rend="smallcaps"> Wordsworth</hi>, II, 406.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-214b" n="B14b"><head>Subpeça b (sèrie 14)</head>
+<div type="camp" n="III.B14b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit epistola ad ephesios (<hi rend="italic">fi de rúbrica</hi>). Paulus apostolus ihesu christi per uoluntatem dei, omnibus sanctis qui sunt ephesii et fidelibus in christo ihesu, Gratia uobis et pax a deo patre nostro et domino ihesu christo ...». F. 342vb, <hi rend="italic">exp.: </hi>«... Gratia cum omnibus qui diligunt dominum nostrum ihesum christum in incorruptionem amen».</p></div>
+<div type="camp" n="III.B14b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Paulus</hi>, <hi rend="italic">Epistula ad Ephesios.</hi> Π</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-215a" n="B15a"><head>Subpeça a (sèrie 15)</head>
+<div type="camp" n="III.B15a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus in epistola ad philipenses (<hi rend="italic">fi de  rúbrica</hi>). Philippenses sunt macedones ...». Ib., <hi rend="italic">exp.: </hi>«... scribens eis a roma de carcere per epafroditum».</p></div>
+<div type="camp" n="III.B15a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum in epistulam ad Philippenses.</hi></p></div>
+<div type="camp" n="III.B15a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 728<hi rend="italic">.</hi></p></div>
+<div type="camp" n="III.B15a.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 192, 221; <hi rend="italic">Préfaces </hi>236ª; W<hi rend="smallcaps">ordsworth, II</hi>, 455.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-215b" n="B15b"><head>Subpeça b (sèrie 15)</head>
+<div type="camp" n="III.B15b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit epistola ad philipenses (<hi rend="italic">fi de rúbrica</hi>). Paulus et timotheus serui ihesu christi omnibus sanctis in christo ihesu qui sunt philippis cum episcopis et diaconibus, gratia uobis et pax a deo patre nostro et domino ihesu christo ... ». F. 343va, <hi rend="italic">exp</hi>.: «... Salutant uos omnes sancti, maxime autem qui de cesaris domo sunt. Gratia domini nostri ihesu christi cum spiritu uestro. Amen».</p></div>
+<div type="camp" n="III.B15b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Paulus</hi>, <hi rend="italic">Epistula ad Philippenses.</hi> Ρ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-216a" n="B16a"><head>Subpeça a (sèrie 16)</head>
+<div type="camp" n="III.B16a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus in epistola ad colosenses (<hi rend="italic">fi de rúbrica</hi>). Colosenses et hii sunt (<hi rend="italic">sic</hi>) laodicenses, sunt asiani ...». Ib., <hi rend="italic">exp.: </hi>«... scribit eis ab epheso per tithicum diaconem et onesimum acolitum».</p></div>
+<div type="camp" n="III.B16a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum marcioniticum in epistulam ad  Colosenses.</hi></p></div>
+<div type="camp" n="III.B16a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 736</p></div>
+<div type="camp" n="III.B16a.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 192, 257; <hi rend="italic">Préfaces</hi> 236ª-237ª<hi rend="smallcaps">;</hi> W<hi rend="smallcaps">ordsworth, I</hi>I, 490.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-216b" n="B16b"><head>Subpeça b (sèrie 16)</head>
+<div type="camp" n="III.B16b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit epistola ad colosenses (<hi rend="italic">fi de rúbrica</hi>). Paulus apostolus christi ihesu per uoluntatem dei et timotheus frater hiis qui sunt colosensis (<hi rend="italic">sic</hi>) sanctis et fidelibus fratribus in christo ihesu, Gratia uobis et pax a deo patre nostro ...». F. 344va, <hi rend="italic">exp.: </hi>«... Memores estote uinculorum meorum. Gratia domini ihesu uobiscum amen».</p></div>
+<div type="camp" n="III.B16b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Paulus</hi>, <hi rend="italic">Epistula ad Colosenses.</hi> Σ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-217a" n="B17a"><head>Subpeça a (sèrie 17)</head>
+<div type="camp" n="III.B17a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus in epistola ad thessalonicenses (<hi rend="italic">fi  de rúbrica</hi>). Thessalonicenses sunt macedones in christo ihesu (<hi rend="italic">sic</hi>) qui accepto uerbo ueritatis perstiterunt in fide ...». Ib., <hi rend="italic">exp.: </hi>«... Hos collaudat apostolus scribens eis ab athenis per tichicum et onesimum».</p></div>
+<div type="camp" n="III.B17a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum marcioniticum in epistulam ad  Thessalonicenses primam.</hi></p></div>
+<div type="camp" n="III.B17a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 747.</p></div>
+<div type="camp" n="III.B17a.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 192, 287; W<hi rend="smallcaps">ordsworth, II</hi>, 523; <hi rend="italic">Préfaces</hi> 237ª.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-217b" n="B17b"><head>Subpeça b (sèrie 17)</head>
+<div type="camp" n="III.B17b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit epistola ad thessalonicenses (<hi rend="italic">fi de rúbrica</hi>). Paulus et siluanus et timotheus ecclesie thessalonicensium in deo patre nostro et domino ihesu christo, gratia uobis et pax ...». F. 345rb, <hi rend="italic">exp.: </hi>«... Adiuro uos per dominum ut legatur epistola hec omnibus sanctis fratribus. Gratia domini nostri ihesu christi cum omnibus uobis. Amen».</p></div>
+<div type="camp" n="III.B17b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Paulus</hi>, <hi rend="italic">Epistula I ad Thessalonicenses.</hi> Τ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-218a" n="B18a"><head>Subpeça a (sèrie 18)</head>
+<div type="camp" n="III.B18a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus ad thessalonicenses (<hi rend="italic">fi de rúbrica</hi>). Ad thessalonicenses secundam scribit ...». Ib., <hi rend="italic">exp.: </hi>«... ab athenis per tithicum diaconem et onesimum acolitum».</p></div>
+<div type="camp" n="III.B18a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum in epistulam ad Thessalonicenses secundam.</hi></p></div>
+<div type="camp" n="III.B18a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 752.</p></div>
+<div type="camp" n="III.B18a.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 192, 311; <hi rend="italic">Préfaces</hi> 237ª; W<hi rend="smallcaps">ordsworth, II</hi>, 554.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-218b" n="B18b"><head>Subpeça b (sèrie 18)</head>
+<div type="camp" n="III.B18b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit secunda epistola ad thessalonicenses (<hi rend="italic">fi de  rúbrica</hi>). Paulus et siluanus et timotheus ecclesie thesalonicensium in deo patre nostro et domino ihesu christo, gratia uobis et pax a deo patre nostro et domino ihesu christo ...». F. 345vb, <hi rend="italic">exp.: </hi>«... quod est signum in omni epistola, ita scribo. Gratia domini nostri ihesu christi cum omnibus uobis amen».</p></div>
+<div type="camp" n="III.B18b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Paulus</hi>, <hi rend="italic">Epistula II ad Thessalonicenses.</hi> Υ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-219a" n="B19a"><head>Subpeça a (sèrie 19)</head>
+<div type="camp" n="III.B19a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit argumentum in prima epistola ad thimo theum (<hi rend="italic">fi de rúbrica</hi>). Timotheum instruit et docet ...». Ib., <hi rend="italic">exp.: </hi>«... scribens ei a laodicia».</p></div>
+<div type="camp" n="III.B19a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum in epistulam ad Timotheum  primam.</hi></p></div>
+<div type="camp" n="III.B19a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 765.</p></div>
+<div type="camp" n="III.B19a.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 192, 325; <hi rend="italic">Préfaces </hi>237ª; W<hi rend="smallcaps">ordsworth, II</hi>, 573.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-219b" n="B19b"><head>Subpeça b (sèrie 19)</head>
+<div type="camp" n="III.B19b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit epistola prima ad thimotheum (<hi rend="italic">fi de rúbrica</hi>). Paulus apostolus christi ihesu secundum imperium dei saluatoris nostri et christi ihesu spei nostre, timotheo dilecto filio in fide ...». F. 346vb, <hi rend="italic">exp.: </hi>«... et oppositiones falsi nominis scientie, quam quidam promittentes circa fidem (<hi rend="italic">sic</hi>). Gratia tecum amen».</p></div>
+<div type="camp" n="III.B19b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Paulus</hi>, <hi rend="italic">Epistula I ad Timotheum.</hi> Φ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-220a" n="B20a"><head>Subpeça a (sèrie 20)</head>
+<div type="camp" n="III.B20a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit argumentum in epistola II ad thimotheum (<hi rend="italic">fi de rúbrica</hi>). Item timotheo scribit de exhortatione martirii ...». Ib., <hi rend="italic">exp.: </hi>«... temporibus nouissimis et de sua passione, scribens ab urbe roma».</p></div>
+<div type="camp" n="III.B20a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum in epistulam ad Timotheum  secundam.</hi></p></div>
+<div type="camp" n="III.B20a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 772.</p></div>
+<div type="camp" n="III.B20a.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 192, 363; <hi rend="italic">Préfaces </hi>238ª; W<hi rend="smallcaps">ordsworth, II</hi>, 61.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-220b" n="B20b"><head>Subpeça b (sèrie 20)</head>
+<div type="camp" n="III.B20b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit epistola secunda ad timotheum (<hi rend="italic">fi de rúbrica</hi>). Paulus apostolus christi ihesu per uoluntatem dei secundum promissionem uite que est in christo ihesu ...». F. 347va, <hi rend="italic">exp.: </hi>«... Salutat te eubolus et prudens (<hi rend="italic">sic</hi>) et linus et claudia et fratres omnes. Dominus noster ihesus christus cum spiritu tuo. Gratia dei uobiscum amen».</p></div>
+<div type="camp" n="III.B20b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Paulus</hi>, <hi rend="italic">Epistula II ad Timotheum.</hi> Χ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-221a" n="B21a"><head>Subpeça a (sèrie 21)</head>
+<div type="camp" n="III.B21a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit argumentum in epistola ad titum (<hi rend="italic">fi de rúbrica</hi>). Titum commone facit ...». Ib., <hi rend="italic">exp.: </hi>«... qui in scripturis iudaicis credunt, scribens ei a nichopoli».</p></div>
+<div type="camp" n="III.B21a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum in epistulam ad Titum.</hi></p></div>
+<div type="camp" n="III.B21a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 780.</p></div>
+<div type="camp" n="III.B21a.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 192, 383; <hi rend="italic">Préfaces </hi>238ª; W<hi rend="smallcaps">ordsworth, II</hi>, 646.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-221b" n="B21b"><head>Subpeça b (sèrie 21)</head>
+<div type="camp" n="III.B21b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit epistola ad tytum (<hi rend="italic">fi de rúbrica</hi>). Paulus seruus dei, apostolus ihesu christi secundum fidem electorum dei et agnitionem ueritatis qui secundum pietatem est in spem uite eterne ...». F. 348ra, <hi rend="italic">exp.: </hi>«... Salutant te qui mecum sunt omnes. Saluta eos qui nos amant in fide. Gratia dei cum omnibus uobis amen».</p></div>
+<div type="camp" n="III.B21b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Paulus</hi>, <hi rend="italic">Epistula ad Titum.</hi> Ψ</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-222a" n="B22a"><head>Subpeça a (sèrie 22)</head>
+<div type="camp" n="III.B22a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit argumentum in epistola ad philemonem (<hi rend="italic">fi  de rúbrica</hi>). Philemoni familiares litteras ...». Ib., <hi rend="italic">exp.: </hi>«... ab urbe roma de carcere per supradictum onesimum».</p></div>
+<div type="camp" n="III.B22a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum Marcioniticum in epistulam  ad Philemonem.</hi></p></div>
+<div type="camp" n="III.B22a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 783.</p></div>
+<div type="camp" n="III.B22a.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 192, 393; <hi rend="italic">Préfaces </hi>238ª; W<hi rend="smallcaps">ordsworth, II, </hi>668.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-222b" n="B22b"><head>Subpeça b (sèrie 22)</head>
+<div type="camp" n="III.B22b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib, <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit epistola ad philemonem (<hi rend="italic">fi de rúbrica</hi>). Paulus uinctus christi ihesu et timotheus frater philemoni dilecto et adiutori nostro ...». Ib., <hi rend="italic">exp.: </hi>«... Marcus, aristarcus, demas, lucas adiutores mei. Gratia domini (<hi rend="italic">F. 348rb</hi>) nostri ihesu christi cum spiritu tuo. Amen».</p></div>
+<div type="camp" n="III.B22b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Paulus</hi>, <hi rend="italic">Epistula ad Philemonem.</hi> Ω</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-223a" n="B23a"><head>Subpeça a (sèrie 23)</head>
+<div type="camp" n="III.B23a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus in epistola ad hebreos (<hi rend="italic">fi de rúbrica</hi>). In primis dicendum est cur apostolus Paulus in hac epistola scribendo non seruauerit morem suum ut uel uocabulum nominis sui uel ordinis describeret dignitatem ...». Ib., <hi rend="italic">exp.: </hi>«... Cuius sensum et ordinem retinens lucas euangelista post excessum beati apostoli pauli greco sermone composuit».</p></div>
+<div type="camp" n="III.B23a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Argumentum in epistulam ad Hebraeos.</hi></p></div>
+<div type="camp" n="III.B23a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 283.</p></div>
+<div type="camp" n="III.B23a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 794.</p></div>
+<div type="camp" n="III.B23a.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 114, 643; <hi rend="italic">Préfaces </hi>253-254; W<hi rend="smallcaps">ordsworth, II</hi>, 679-680.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-223b" n="B23b"><head>Subpeça b (sèrie 23)</head>
+<div type="camp" n="III.B23b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit epistola ad hebreos (<hi rend="italic">fi de rúbrica</hi>). Multipharie multisque modis olim deus loquens patribus in prophetis, nouissime diebus istis locutus est nobis in filio ...». F. 351ra, <hi rend="italic">exp.: </hi>«... Salutant uos fratres de ytalia. Gratia cum omnibus uobis amen».</p></div>
+<div type="camp" n="III.B23b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Epistula ad Hebraeos.</hi> a</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-224a" n="B24a"><head>Subpeça a (sèrie 24)</head>
+<div type="camp" n="III.B24a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Prologus in actibus apostolorum (<hi rend="italic">fi de rúbrica</hi>). Lucas antiochensis, natione syrus, cuius laus in euangelio canitur, apud antiochiam medicine artis eggregius et apostolorum christi discipulus postea ...». F. 351rb, <hi rend="italic">exp.: </hi>«... ut non solum corporibus, sed etiam animabus eius proficeret medicina».</p></div>
+<div type="camp" n="III.B24a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p>[<hi rend="smallcaps">Anonymus], </hi><hi rend="italic">Praefatio in Actus Apostolorum.</hi></p></div>
+<div type="camp" n="III.B24a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 244.</p></div>
+<div type="camp" n="III.B24a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 640.</p></div>
+<div type="camp" n="III.B24a.5"><head n="Edició: " type="valor">5a. Edició</head><p>W<hi rend="smallcaps">ordsworth, II-I</hi>, 1-2 <hi rend="italic">Préfaces </hi>209<hi rend="smallcaps">.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-224b" n="B24b"><head>Subpeça b (sèrie 24)</head>
+<div type="camp" n="III.B24b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit actus apostolorum (<hi rend="italic">fi de rúbrica</hi>). Primum quidem sermonem feci de omnibus, o theophile, que cepit ihesus facere et docere usque in diem qua precipiens apostolis per spiritum sanctum quos elegit assumpus est ...». F. 361rb, <hi rend="italic">exp.. </hi>«... Mansit autem biennio toto in suo conductu, et suscipie bat omnes qui ingrediebantur ad eum, predicans regnum dei et docens que sunt de domino ihesu christo cum omni fiducia sine prohibitione. amen».</p></div>
+<div type="camp" n="III.B24b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="italic">Actus Apostolorum.</hi> b</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-225a" n="B25a"><head>Subpeça a (sèrie 25)</head>
+<div type="camp" n="III.B25a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus in epistolis canonicis (<hi rend="italic">fi de rúbrica</hi>). Non ita est ordo apud grecos qui integre sapiunt fidemque rectam sectantur epistolarum <hi rend="smallcaps">vii </hi>que canonice nuncupantur ...». Ib., <hi rend="italic">exp.:</hi> «... Sed ego in tali opere nec emulorum meorum inuidentiam pertimesco, nec sancte scripture ueritatem poscentibus denegabo».</p></div>
+<div type="camp" n="III.B25a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="italic">Praefatio in septem epistulas canonicas.</hi></p></div>
+<div type="camp" n="III.B25a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 290.</p></div>
+<div type="camp" n="III.B25a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 809.</p></div>
+<div type="camp" n="III.B25a.5"><head n="Edició: " type="valor">5a. Edició</head><p>PL 29, 821-822; <hi rend="italic">Préfaces </hi>255; <hi rend="smallcaps">Wordsworth, III</hi>, 230-231.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-225b" n="B25b"><head>Subpeça b (sèrie 25)</head>
+<div type="camp" n="III.B25b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit epistola iacobi (<hi rend="italic">fi de rúbrica</hi>). Iacobus dei et domini nostri ihesu christi seruus, <hi rend="smallcaps">xii</hi> tribubus que sunt in dispersione, salutem ...». F. 362rb, <hi rend="italic">exp.: </hi>«... saluabit animam eius a morte, et operit (<hi rend="italic">sic</hi>) multitudinem peccatorum».<hi rend="sup"> </hi></p></div>
+<div type="camp" n="III.B25b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Iacobus, </hi><hi rend="italic">Epistula.</hi> c</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-226a" n="B26a"><head>Subpeça a (sèrie 26)</head>
+<div type="camp" n="III.B26a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prima epistola petri (<hi rend="italic">fi de rúbrica</hi>). Petrus, apostolus ihesu christi, electis aduenis dispersionis ponti, galathie, capadocie, asie et bithinie, secundum prescienciam dei patris ...». F. 363rb, <hi rend="italic">exp.: </hi>«... et marcus filius meus. Salutate inuicem in osculo sancto. Gratia uobis omnibus qui estis in christo amen».</p></div>
+<div type="camp" n="III.B26a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Petrus, </hi><hi rend="italic">Epistula I.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-226b" n="B26b"><head>Subpeça b (sèrie 26)</head>
+<div type="camp" n="III.B26b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc</hi>.: «(<hi rend="italic">rúbrica</hi>) Incipit secunda epistola petri (<hi rend="italic">fi de rúbrica</hi>). Simon petrus, seruus et apostolus ihesu christi, hiis qui coequalem nobiscum sortiti sunt fidem ...». F. 364ra, <hi rend="italic">exp.: </hi>«... Crescite uero in gratia et in cognitione domini nostri ihesu christi et saluatoris. Ipsi gloria et nunc et in diem eternitatis amen».</p></div>
+<div type="camp" n="III.B26b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Petrus, </hi><hi rend="italic">Epistula II.</hi> d</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-227a" n="B27a"><head>Subpeça a (sèrie 27)</head>
+<div type="camp" n="III.B27a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prima epistola iohannis (<hi rend="italic">fi de rúbrica</hi>). Quod fuit ab inicio, quod audiuimus, quod uidimus oculis nostris, quod perspeximus et manus nostre contrectauerunt de uerbo uite ...». F. 365ra, <hi rend="italic">exp.: </hi>«... Hic est uerus deus et uita eterna. Filioli, custodite uos a simulachris. Amen».</p></div>
+<div type="camp" n="III.B27a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Ioannes</hi>, <hi rend="italic">Epistula I.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-227b" n="B27b"><head>Subpeça b (sèrie 27)</head>
+<div type="camp" n="III.B27b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit secunda epistola Johannis (<hi rend="italic">fi de rúbrica</hi>). Senior electe domine et natis eius quos ego diligo in ueritate, et non ego solus, sed et omnes qui cognouerunt ueritatem ...». Ib., <hi rend="italic">exp.: </hi>«... Salutant te filie sororis tue electe. Gratia tecum. Amen».<hi rend="sup"> </hi></p></div>
+<div type="camp" n="III.B27b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Ioannes</hi>, <hi rend="italic">Epistula II.</hi></p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-227c" n="B27c"><head>Subpeça c (sèrie 27)</head>
+<div type="camp" n="III.B27c.1"><head>1c. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit tertia epistola iohannis (<hi rend="italic">fi de rúbrica</hi>). Senior gaio karissimo quem ego diligo in ueritate ... ». F. 365rb, <hi rend="italic">exp.: </hi>«... et os ad os loquemur. Pax tibi. Salutant te amici. Saluta tu amicos nominatim».</p></div>
+<div type="camp" n="III.B27c.2"><head n="Identificació de l’autor i obra: " type="valor">2c. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Ioannes</hi>, <hi rend="italic">Epistula III.</hi> e</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-228a" n="B28a"><head>Subpeça a (sèrie 28)</head>
+<div type="camp" n="III.B28a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit epistola iude (<hi rend="italic">fi de rúbrica</hi>). Iudas, ihesu christi seruus, frater autem iacobi, hiis qui sunt in deo patre dilectis et a christo ihesu conseruatis et uocatis ...». F. 365va, <hi rend="italic">exp.: </hi>«... gloria et magnificentia, imperium et potestas ante omnia secula et nunc et in omnia secula seculorum amen».</p></div>
+<div type="camp" n="III.B28a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Iudas, </hi><hi rend="italic">Epistula.</hi> f</p></div>
+<div type="camp" n="III.B28a.1"><head>1a. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit prologus in apocalipsis (<hi rend="italic">sic</hi>) iohannis (<hi rend="italic">fi de  rúbrica</hi>). Omnes qui pie uolunt uiuere in christo, sicut ait apostolus, persecucionem pacientur ...». F. 365vb, <hi rend="italic">exp.: </hi>«... Premittit autem prologum dicens: apocalipsis ihesu christi, subaudis, hec est, sicut in aliis visio ysaie hec est, et parabole salomonis».</p></div>
+<div type="camp" n="III.B28a.2"><head n="Identificació de l’autor i obra: " type="valor">2a. Identificació de l’autor i obra</head><p>Gilbertus<hi rend="smallcaps"> Porretanus, </hi><hi rend="italic">Prologus Apocalipsis.</hi></p></div>
+<div type="camp" n="III.B28a.3"><head n="Altres manuscrits: " type="valor">3a. Altres manuscrits</head><p><hi rend="smallcaps">Berger</hi> 320.</p></div>
+<div type="camp" n="III.B28a.4"><head n="Catàlegs i bibliografia: " type="valor">4a. Catàlegs i bibliografia</head><p>RB 839.</p></div>
+<div type="camp" n="III.B28a.5"><head n="Edició: " type="valor">5a. Edició</head><p><hi rend="italic">Préfaces </hi>262-263.</p></div>
+</div>
+<div type="subpeca" xml:id="ACG-Ms-5-B-228b" n="B28b"><head>Subpeça b (sèrie 28)</head>
+<div type="camp" n="III.B28b.1"><head>1b. Folis, íncipit i èxplicit</head><p>Ib., <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Incipit liber apocalypsis (<hi rend="italic">fi de rúbrica</hi>). Apocalipsis ihesu christi quam dedit illi deus palam facere seruis suis que oportet fieri cito, et significauit mittens per angelum suum seruo suo iohanni ...». F. 370va, <hi rend="italic">exp.: </hi>«... Dicit qui testimonium perhibet istorum. Etiam uenio cito. Amen. ueni domine ihesu. Gratia domini nostri ihesu christi cum omnibus uobis amen».</p></div>
+<div type="camp" n="III.B28b.2"><head n="Identificació de l’autor i obra: " type="valor">2b. Identificació de l’autor i obra</head><p><hi rend="smallcaps">Ioannes,</hi> <hi rend="italic">Apocalypsis.</hi> Folis 370vb-371 buits. g</p></div>
+</div>
+<div type="camp" n="III.B.1"><head>1. Folis, íncipit i èxplicit</head><p>Folis 372ra-413vb. F. 372ra, <hi rend="italic">inc.: </hi>«(<hi rend="italic">rúbrica</hi>) Hic incipiunt interpretacio nes hebreicorum (<hi rend="italic">sic</hi>) nominum (<hi rend="italic">fi de rúbrica</hi>). Aaz: apprehendens uel apprehensio ...». F. 413vb, <hi rend="italic">exp.: </hi>«... Zuzim: consiliantes eos uel consiliatores eorum. | Expliciunt interpretationes hebraicorum | nominum secundum remigium. deo | gra cias. amen».</p></div>
+<div type="camp" n="III.B.2"><head n="Identificació de l’autor i obra: " type="valor">2. Identificació de l’autor i obra</head><p>[Pseudo-<hi rend="smallcaps">Remigius Altissiodorensis  (</hi>Remigi d’Auxerre<hi rend="smallcaps">)] Stephanus Langton</hi>, <hi rend="italic">Interpretationes hebraicorum nominum.</hi></p></div>
+<div type="camp" n="III.B.3"><head n="Altres manuscrits: " type="valor">3. Altres manuscrits</head><p>RB 7708-7709.</p></div>
+<div type="camp" n="III.B.4"><head n="Catàlegs i bibliografia: " type="valor">4. Catàlegs i bibliografia</head><p><hi rend="smallcaps">Glorieux I, </hi>n. 104 <hi rend="italic">as, </hi>p<hi rend="italic">. </hi>258; RB 7703, 7708, 7709.</p></div>
+</div>
+</div>
+<div type="seccio" n="IV"><head>IV. Escriptura</head>
+<div type="camp" n="IV.1"><head n="Caixa d’escriptura: " type="valor">1. Caixa d’escriptura</head><p>173 × 255, de 57/56 línies, a dos corondells. Impaginació del foli 181v: 52 + 80 + 13<hi rend="sup">1/2 </hi>+ 80 + 30 × 34 + 255 + 84.</p></div>
+<div type="camp" n="IV.2"><head n="Tipus de ratllat: " type="valor">2. Tipus de ratllat</head><p>Quatre línies horitzontals i quatre de verticals per a definir la caixa del pautat. Sobre la caixa d’escriptura i al marge superior, dues línies horitzontals que defineixen l’espai del <hi rend="italic">titulus currens</hi></p></div>
+<div type="camp" n="IV.3"><head n="Tipus de lletra i mans: " type="valor">3. Tipus de lletra i mans</head><p>Escriptura gòtica librària de més d’una mà. Al f. 174rv s’observa un canvi en el color de la lletra, que passa a un color sèpia esvaït.</p></div>
+<div type="camp" n="IV.4"><head>4. Reclams</head><p>Reclams horitzontals.</p></div>
+<div type="camp" n="IV.5"><head>5. Decoració</head><p>Decoració. Els principis de la decoració d’aquest còdex són clars: Aquelles parts del text que han d’ésser remarcades, és a dir, les inicials de pròlegs i de llibres bíblics, tenen caplletra i semiorla. Al foli 1ra, vinyeta rectangular inicial del pròleg «Frater Ambrosius», ocupant l’espai de 10 línies de text, que representa sant Jeroni vestit de monjo, escrivint assegut en el seu escriptori; el fons de l’escena representa una paret o tela sembrada de flors de lis, trèvols o puntes de forqueta de colors blau i rosa alternants. Vora el conjunt seient-sant-escriptori, una taula o caixa baixa del mateix color gris del burell de sant Jeroni. La vinyeta es perllonga en una orla fina i elegant, constituïda per una tija de colors rosa i blau clavada al primer corondell, que s’allarga voluptuosament per tot el marge inferior, per anar a treure un fullatge que llepa les darreres línies del segon corondell pel cantó del marge inferior dret. Al foli 3ra, caplletra «D» del pròleg jeronimià «Desiderii mei»; al ventre de la lletra, volutes de color rosa i blau, una de les quals acaba en un cap d’animal combinat amb un cos que evoca el lleó marí o la foca. Al foli 3va, inici del llibre del <hi rend="italic">Gènesi, </hi>orla arquitectònica, constituïda per set nivells, on hi ha representada la creació del món en set dies. En la primera casella hi ha la creació de la llum i la seva divisió de les tenebres (Gn 1, 3-5). En la segona, la creació del firmament i la divisió de les aigües (Gn 1, 6-8). En la tercera, la creació dels mars i l’emergència dels continents i la vegetació (Gn 1, 9-13). En la quarta, la creació del sol, de la lluna i dels estels (Gn 1, 14-19). En la cinquena, la creació dels peixos del mar, dels ocells i dels animals de la terra (Gn 1, 20). En la sisena, la creació de l’home i la dona segons el relat de Gn 2, 18-23. En la setena, Déu descansa del treball de la creació, assegut en un tron baix, i santifica el dissabte (Gn 2, 2-4).</p></div>
+<div type="camp" n="IV.6"><head>6. Notes</head><p>Notes i manícules als f. 1va, 3rb, 4rb i va, 5va, 7rb-10vb, 12va, 14rb, 15rab, 17ra, 43ra, 53rb, 54va, 73rb, 75va, 78rb, 79rb, 106rb, 182rb-183vb, 188rb, 192rb, 201va, 202va, 204ra, 208va, 209va, 222va,</p></div>
+<div type="camp" n="IV.9"><head>9. Copistes</head><p>Copista únic.</p></div>
+<div type="camp" n="IV.10"><head>10. Revisions i correccions</head><p>Revisions i correccions als f. 3vb, 5va, 13rb, 18vb, 74va, 77rb, 82rb, 100rb, 101va,</p></div>
+<div type="camp" n="IV.11"><head n="Antigues signatures: " type="valor">11. Antigues signatures</head><p>Ant2 1; Morera 5; Bohigas 5.</p></div>
+<div type="camp" n="IV.12"><head>12. Notícies històriques</head><p>Notícies històriques. Si el ms. és la Bíblia trobada en la visita del 1512 en el sisè escon, hauria estat regalada a la catedral pel bisbe Boïl.<note place="foot" n="288"><hi rend="smallcaps">Batlle i Prats, </hi>p. 187, n. 72: «... Biblia quam mandat relligari et quam dominus episcopus secum portavit».</note></p></div>
+</div>
+<div type="seccio" n="V"><head>V. Conclusió</head>
+<div type="camp" n="V.1"><head>1. Estat de conservació</head><p><hi rend="smallcaps"></hi>Estat de conservació correcte. Ulls als f. 11, 27, 39. Cosits descosits als f. 44, 162</p></div>
+<div type="camp" n="V.2"><head n="Datació: " type="valor">2. Datació</head><p>Segle XIIIex.</p></div>
+<div type="camp" n="V.3"><head>3. Origen</head><p>Origen francès.</p></div>
+<div type="camp" n="V.4"><head n="Propietaris i procedència: " type="valor">4. Propietaris i procedència</head><p>ACG.</p></div>
+</div>
+</div>
+</body></text>
+</TEI>
