@@ -172,7 +172,7 @@
 <div type="camp" n="V.1"><head n="Estat de conservació: " type="valor">1. Estat de conservació</head><p>Bo.</p></div>
 <div type="camp" n="V.2"><head n="Datació: " type="valor">2. Datació</head><p>Segles XIV-XVII.</p></div>
 <div type="camp" n="V.3"><head n="Origen: " type="valor">3. Origen</head><p>Catedral de Girona</p></div>
-<div type="camp" n="V.4"><head n="Propietaris i procedència: " type="valor">4. Propietaris i procedència</head><p>Capítol de la Catedral de <placeName key="lloc-girona">Girona</placeName>.</p></div>
+<div type="camp" n="V.4"><head n="Propietaris i procedència: " type="valor">4. Propietaris i procedència</head><p>Capítol de la <orgName key="inst-catedral-de-girona">Catedral de Girona</orgName>.</p></div>
 </div>
 </div>
 </body></text>
